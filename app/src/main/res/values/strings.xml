@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Название приложения -->
+    <string name="app_name">Царь-Щит</string>
+    <string name="app_description">Защита от социальной инженерии</string>
+    
+    <!-- Основные кнопки -->
+    <string name="start">Запустить защиту</string>
+    <string name="stop">Остановить защиту</string>
+    <string name="settings">Настройки</string>
+    <string name="permissions">Разрешения</string>
+    <string name="license">Лицензия</string>
+    <string name="test_call">Тестовый вызов</string>
+    
+    <!-- Статусы -->
+    <string name="status_ready">Готов к работе</string>
+    <string name="status_initialized">Инициализировано</string>
+    <string name="status_initialization_failed">Ошибка инициализации</string>
+    <string name="status_services_running">Службы работают</string>
+    <string name="status_call_screening_running">CallScreening работает</string>
+    <string name="status_stt_running">STT работает</string>
+    <string name="status_services_stopped">Службы остановлены</string>
+    <string name="status_protection_active">Защита активна</string>
+    <string name="status_protection_failed">Ошибка защиты</string>
+    <string name="status_test_call">Тестовый вызов</string>
+    <string name="status_threat_detected">Угроза обнаружена!</string>
+    
+    <!-- Разрешения -->
+    <string name="permissions_required">Требуются разрешения</string>
+    <string name="permission_rationale">Для работы приложения необходимы следующие разрешения:</string>
+    <string name="permission_microphone">Доступ к микрофону</string>
+    <string name="permission_phone_state">Состояние телефона</string>
+    <string name="permission_contacts">Доступ к контактам</string>
+    <string name="permission_notifications">Уведомления</string>
+    <string name="permission_media_audio">Медиа-аудио</string>
+    <string name="permission_overlay">Поверх других окон</string>
+    <string name="permission_status_format" formatted="false">Разрешения: %d/%d</string>
+    
+    <!-- Лицензия -->
+    <string name="license_status">Статус лицензии</string>
+    <string name="license_status_format">Лицензия: %s</string>
+    <string name="license_free">Бесплатно</string>
+    <string name="license_paid">Оплачено</string>
+    <string name="license_trial">Пробный период</string>
+    <string name="license_expired">Истекла</string>
+    <string name="license_unknown">Неизвестно</string>
+    
+    <!-- Диалоги -->
+    <string name="grant">Предоставить</string>
+    <string name="deny">Отказать</string>
+    <string name="retry">Повторить</string>
+    <string name="cancel">Отмена</string>
+    <string name="later">Позже</string>
+    <string name="ok">OK</string>
+    
+    <!-- Overlay разрешение -->
+    <string name="overlay_permission_title">Разрешение на отображение поверх окон</string>
+    <string name="overlay_permission_message">Для отображения предупреждений необходимо разрешение на отображение поверх других окон</string>
+    <string name="overlay_permission_granted">Разрешение предоставлено</string>
+    <string name="overlay_permission_denied">Разрешение отклонено</string>
+    
+    <!-- Уведомления -->
+    <string name="all_permissions_granted">Все разрешения предоставлены</string>
+    <string name="protection_started">Защита запущена</string>
+    <string name="protection_failed">Ошибка запуска защиты</string>
+    <string name="call_screening_updated">CallScreening обновлен</string>
+    <string name="test_call_started">Тестовый вызов запущен</string>
+    
+    <!-- Тестовый вызов -->
+    <string name="test_call_title">Тестовый вызов</string>
+    <string name="test_call_message">Запустить симуляцию входящего вызова для тестирования системы?</string>
+    <string name="start_test">Начать тест</string>
+    
+    <!-- Меню -->
+    <string name="menu_about">О приложении</string>
+    <string name="menu_help">Помощь</string>
+    <string name="menu_feedback">Обратная связь</string>
+    <string name="menu_exit">Выход</string>
+    
+    <!-- Настройки -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_call_screening">CallScreening</string>
+    <string name="settings_accessibility">Accessibility</string>
+    <string name="settings_stt">Распознавание речи</string>
+    <string name="settings_overlay">Оверлей</string>
+    <string name="settings_vibration">Вибрация</string>
+    <string name="settings_license">Лицензия</string>
+    <string name="settings_advanced">Расширенные</string>
+    
+    <!-- О приложении -->
+    <string name="about_title">О приложении</string>
+    <string name="about_version">Версия: %s</string>
+    <string name="about_developer">Разработчик: TsarShield Team</string>
+    <string name="about_description">Система защиты от социальной инженерии в реальном времени</string>
+    
+    <!-- Ошибки -->
+    <string name="error_network">Ошибка сети</string>
+    <string name="error_server">Ошибка сервера</string>
+    <string name="error_unknown">Неизвестная ошибка</string>
+    
+    <!-- Пустые состояния -->
+    <string name="empty_no_permissions">Нет разрешений</string>
+    <string name="empty_no_license">Нет лицензии</string>
+    <string name="empty_no_services">Службы не запущены</string>
+
+    <!-- Службы -->
+    <string name="call_screening_description">Анализ входящих вызовов на предмет социальной инженерии</string>
+    <string name="accessibility_description">Анализ экрана для обнаружения подозрительных вызовов</string>
+</resources>

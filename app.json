@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "Tsar Shield",
+    "slug": "tsar-shield",
+    "android": {
+      "package": "com.tsar.shield"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1962c2d0-caca-423c-a000-5d94bec7f838"
+      }
+    }
+  }
+}

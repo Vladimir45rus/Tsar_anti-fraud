@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.tsarshield.app-debug-4:/drawable_ic_shield.xml.flat",
+        "source": "com.tsarshield.app-main-6:/drawable/ic_shield.xml"
+    },
+    {
+        "merged": "com.tsarshield.app-debug-4:/xml_accessibility_service_config.xml.flat",
+        "source": "com.tsarshield.app-main-6:/xml/accessibility_service_config.xml"
+    },
+    {
+        "merged": "com.tsarshield.app-debug-4:/xml_call_screening_service.xml.flat",
+        "source": "com.tsarshield.app-main-6:/xml/call_screening_service.xml"
+    },
+    {
+        "merged": "com.tsarshield.app-debug-4:/layout_overlay_warning.xml.flat",
+        "source": "com.tsarshield.app-main-6:/layout/overlay_warning.xml"
+    },
+    {
+        "merged": "com.tsarshield.app-debug-4:/layout_activity_main.xml.flat",
+        "source": "com.tsarshield.app-main-6:/layout/activity_main.xml"
+    }
+]

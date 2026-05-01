@@ -1,0 +1,17 @@
+[
+{
+  "directory": "C:/Tsar_anti-fraud/app/.cxx/Debug/3f575w3b/arm64-v8a",
+  "command": "C:\\Users\\BOBAH\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android29 --sysroot=C:/Users/BOBAH/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dtsarshield_stt_EXPORTS -IC:/Tsar_anti-fraud/app/src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -fno-limit-debug-info  -fPIC -std=gnu++17 -o CMakeFiles\\tsarshield-stt.dir\\stt_engine.cpp.o -c C:\\Tsar_anti-fraud\\app\\src\\main\\cpp\\stt_engine.cpp",
+  "file": "C:\\Tsar_anti-fraud\\app\\src\\main\\cpp\\stt_engine.cpp"
+},
+{
+  "directory": "C:/Tsar_anti-fraud/app/.cxx/Debug/3f575w3b/arm64-v8a",
+  "command": "C:\\Users\\BOBAH\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android29 --sysroot=C:/Users/BOBAH/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dtsarshield_stt_EXPORTS -IC:/Tsar_anti-fraud/app/src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -fno-limit-debug-info  -fPIC -std=gnu++17 -o CMakeFiles\\tsarshield-stt.dir\\audio_routing.cpp.o -c C:\\Tsar_anti-fraud\\app\\src\\main\\cpp\\audio_routing.cpp",
+  "file": "C:\\Tsar_anti-fraud\\app\\src\\main\\cpp\\audio_routing.cpp"
+},
+{
+  "directory": "C:/Tsar_anti-fraud/app/.cxx/Debug/3f575w3b/arm64-v8a",
+  "command": "C:\\Users\\BOBAH\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android29 --sysroot=C:/Users/BOBAH/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dtsarshield_stt_EXPORTS -IC:/Tsar_anti-fraud/app/src/main/cpp -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++17 -fno-limit-debug-info  -fPIC -std=gnu++17 -o CMakeFiles\\tsarshield-stt.dir\\jni_bridge.cpp.o -c C:\\Tsar_anti-fraud\\app\\src\\main\\cpp\\jni_bridge.cpp",
+  "file": "C:\\Tsar_anti-fraud\\app\\src\\main\\cpp\\jni_bridge.cpp"
+}
+]

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/overlay_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FF5252"
+    android:elevation="8dp">
+    
+    <!-- Заголовок предупреждения -->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⚠️ СОЦИАЛЬНАЯ ИНЖЕНЕРИЯ"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="8dp" />
+    
+    <!-- Номер телефона -->
+    <TextView
+        android:id="@+id/tv_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Номер: +7 (XXX) XXX-XX-XX"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp" />
+    
+    <!-- Уровень опасности -->
+    <TextView
+        android:id="@+id/tv_warning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ВЫСОКАЯ ОПАСНОСТЬ! Возможна попытка мошенничества"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp" />
+    
+    <!-- Обнаруженные угрозы -->
+    <TextView
+        android:id="@+id/tv_threats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Обнаружено: банк, перевод, карта"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp" />
+    
+    <!-- Кнопки действий -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="8dp">
+        
+        <Button
+            android:id="@+id/btn_dismiss"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            android:text="Закрыть"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#4CAF50"
+            android:paddingVertical="8dp" />
+        
+        <Button
+            android:id="@+id/btn_block"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:text="Заблокировать"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#F44336"
+            android:paddingVertical="8dp" />
+        
+        <Button
+            android:id="@+id/btn_more_info"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:text="Подробнее"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#2196F3"
+            android:paddingVertical="8dp" />
+        
+    </LinearLayout>
+    
+    <!-- Информация о приложении -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Царь-Щит: защита от социальной инженерии"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginTop="12dp"
+        android:alpha="0.8" />
+    
+</LinearLayout>
