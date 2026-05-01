@@ -1,0 +1,3 @@
+C:/Tsar_anti-fraud/app/.cxx/Debug/5g5e6i6n/x86_64/CMakeFiles/tsarshield-stt.dir
+C:/Tsar_anti-fraud/app/.cxx/Debug/5g5e6i6n/x86_64/CMakeFiles/edit_cache.dir
+C:/Tsar_anti-fraud/app/.cxx/Debug/5g5e6i6n/x86_64/CMakeFiles/rebuild_cache.dir

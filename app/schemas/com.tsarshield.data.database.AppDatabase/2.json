@@ -1,0 +1,186 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 2,
+    "identityHash": "be82d1b6e740c82d2a06ce68c872ed0d",
+    "entities": [
+      {
+        "tableName": "licenses",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`licenseId` TEXT NOT NULL, `deviceHash` TEXT NOT NULL, `phoneHash` TEXT NOT NULL, `status` TEXT NOT NULL, `planType` TEXT NOT NULL, `activatedAt` INTEGER NOT NULL, `expiresAt` INTEGER, `lastSync` INTEGER NOT NULL, `transferCount` INTEGER NOT NULL, `emergencyTransferCount` INTEGER NOT NULL, `gracePeriodEnd` INTEGER, `isSuspicious` INTEGER NOT NULL, `jwtToken` TEXT, `tokenExpiry` INTEGER, `metadata` TEXT, PRIMARY KEY(`licenseId`))",
+        "fields": [
+          {
+            "fieldPath": "licenseId",
+            "columnName": "licenseId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "deviceHash",
+            "columnName": "deviceHash",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "phoneHash",
+            "columnName": "phoneHash",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "status",
+            "columnName": "status",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "planType",
+            "columnName": "planType",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "activatedAt",
+            "columnName": "activatedAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "expiresAt",
+            "columnName": "expiresAt",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "lastSync",
+            "columnName": "lastSync",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "transferCount",
+            "columnName": "transferCount",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "emergencyTransferCount",
+            "columnName": "emergencyTransferCount",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "gracePeriodEnd",
+            "columnName": "gracePeriodEnd",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "isSuspicious",
+            "columnName": "isSuspicious",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "jwtToken",
+            "columnName": "jwtToken",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "tokenExpiry",
+            "columnName": "tokenExpiry",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "metadata",
+            "columnName": "metadata",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "licenseId"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "triggers",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`trigger_id` TEXT NOT NULL, `phrase` TEXT NOT NULL, `category` TEXT NOT NULL, `weight` REAL NOT NULL, `synonyms` TEXT NOT NULL, `is_active` INTEGER NOT NULL, `created_at` INTEGER NOT NULL, `updated_at` INTEGER NOT NULL, `version` INTEGER NOT NULL, PRIMARY KEY(`trigger_id`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "trigger_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "phrase",
+            "columnName": "phrase",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "category",
+            "columnName": "category",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "weight",
+            "columnName": "weight",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "synonyms",
+            "columnName": "synonyms",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "isActive",
+            "columnName": "is_active",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "created_at",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "updatedAt",
+            "columnName": "updated_at",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "version",
+            "columnName": "version",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "trigger_id"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'be82d1b6e740c82d2a06ce68c872ed0d')"
+    ]
+  }
+}
