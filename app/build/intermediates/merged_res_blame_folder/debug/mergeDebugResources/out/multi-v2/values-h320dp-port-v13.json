@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "com.tsarshield.app-mergeDebugResources-2:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
+            "outputFile": "com.tsar.shield.app-mergeDebugResources-2:/values-h320dp-port-v13/values-h320dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\BOBAH\\.gradle\\caches\\transforms-3\\dec100d78d5c1d8fe2edfd200872eef7\\transformed\\material-1.10.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "source": "C:\\Users\\BOBAH\\.gradle\\caches\\transforms-3\\dec4a454bfe26f7c7f3bab4cff307695\\transformed\\material-1.11.0\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endColumns": "75",
-                        "endOffsets": "126"
+                        "endColumns": "63",
+                        "endOffsets": "114"
                     }
                 }
             ]

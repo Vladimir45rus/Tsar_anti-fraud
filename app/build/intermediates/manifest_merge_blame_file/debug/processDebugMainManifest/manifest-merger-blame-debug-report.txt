@@ -1,11 +1,11 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.tsarshield"
+3    package="com.tsar.shield"
 4    android:versionCode="1"
-5    android:versionName="1.0.0" >
+5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="29"
+8        android:minSdkVersion="26"
 9        android:targetSdkVersion="34" />
 10
 11    <!-- Разрешения -->
@@ -58,524 +58,335 @@
 30    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
 30-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:24:5-88
 30-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:24:22-85
-31    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-31-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:25:5-81
-31-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:25:22-78
-32
-33    <permission
-33-->[androidx.core:core:1.12.0] C:\Users\BOBAH\.gradle\caches\transforms-3\8637e69d8392be17dfe7560b5f2a7de9\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
-34        android:name="com.tsarshield.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-34-->[androidx.core:core:1.12.0] C:\Users\BOBAH\.gradle\caches\transforms-3\8637e69d8392be17dfe7560b5f2a7de9\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
-35        android:protectionLevel="signature" />
-35-->[androidx.core:core:1.12.0] C:\Users\BOBAH\.gradle\caches\transforms-3\8637e69d8392be17dfe7560b5f2a7de9\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
-36
-37    <uses-permission android:name="com.tsarshield.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-37-->[androidx.core:core:1.12.0] C:\Users\BOBAH\.gradle\caches\transforms-3\8637e69d8392be17dfe7560b5f2a7de9\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
-37-->[androidx.core:core:1.12.0] C:\Users\BOBAH\.gradle\caches\transforms-3\8637e69d8392be17dfe7560b5f2a7de9\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
-38
-39    <application
-39-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:26:5-162:19
-40        android:name="com.tsarshield.TsarShieldApplication"
-40-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:27:9-46
-41        android:allowBackup="true"
-41-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:28:9-35
-42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-42-->[androidx.core:core:1.12.0] C:\Users\BOBAH\.gradle\caches\transforms-3\8637e69d8392be17dfe7560b5f2a7de9\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
-43        android:dataExtractionRules="@xml/data_extraction_rules"
-43-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:29:9-65
-44        android:debuggable="true"
-45        android:extractNativeLibs="false"
-46        android:fullBackupContent="@xml/backup_rules"
-46-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:30:9-54
-47        android:icon="@mipmap/ic_launcher"
-47-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:31:9-43
-48        android:label="@string/app_name"
-48-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:32:9-41
-49        android:roundIcon="@mipmap/ic_launcher_round"
-49-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:33:9-54
-50        android:supportsRtl="true"
-50-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:34:9-35
-51        android:theme="@style/Theme.TsarShield"
-51-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:35:9-48
-52        android:usesCleartextTraffic="false" >
-52-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:36:9-45
-53
-54        <!-- Основная активность -->
-55        <activity
-55-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:41:9-55:20
-56            android:name="com.tsarshield.ui.MainActivity"
-56-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:42:13-44
-57            android:exported="true"
-57-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:43:13-36
-58            android:launchMode="singleTop"
-58-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:44:13-43
-59            android:windowSoftInputMode="adjustResize" >
-59-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:45:13-55
-60            <intent-filter>
-60-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:46:13-49:29
-61                <action android:name="android.intent.action.MAIN" />
-61-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:47:17-69
-61-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:47:25-66
-62
-63                <category android:name="android.intent.category.LAUNCHER" />
-63-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:48:17-77
-63-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:48:27-74
-64            </intent-filter>
-65
-66            <!-- Для открытия настроек CallScreening -->
-67            <intent-filter>
-67-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:52:13-54:29
-68                <action android:name="android.telecom.action.CHANGE_DEFAULT_DIALER" />
-68-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:53:17-87
-68-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:53:25-84
-69            </intent-filter>
-70        </activity>
-71
-72        <!-- Служба перехвата вызовов (CallScreening) -->
-73        <service
-73-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:58:9-69:19
-74            android:name="com.tsarshield.service.CallScreeningService"
-74-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:59:13-57
-75            android:enabled="true"
-75-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:62:13-35
-76            android:exported="true"
-76-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:61:13-36
-77            android:permission="android.permission.BIND_SCREENING_SERVICE" >
-77-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:60:13-75
-78            <intent-filter>
-78-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:63:13-65:29
-79                <action android:name="android.telecom.CallScreeningService" />
-79-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:64:17-79
-79-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:64:25-76
-80            </intent-filter>
-81
-82            <meta-data
-82-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:66:13-68:66
-83                android:name="android.telecom.CallScreeningService"
-83-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:67:17-68
-84                android:resource="@xml/call_screening_service" />
-84-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:68:17-63
-85        </service>
-86
-87        <!-- Служба Accessibility -->
-88        <service
-88-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:72:9-83:19
-89            android:name="com.tsarshield.service.AccessibilityService"
-89-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:73:13-57
-90            android:enabled="true"
-90-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:76:13-35
-91            android:exported="true"
-91-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:75:13-36
-92            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
-92-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:74:13-79
-93            <intent-filter>
-93-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:77:13-79:29
-94                <action android:name="android.accessibilityservice.AccessibilityService" />
-94-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:78:17-92
-94-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:78:25-89
-95            </intent-filter>
-96
-97            <meta-data
-97-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:80:13-82:72
-98                android:name="android.accessibilityservice"
-98-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:81:17-60
-99                android:resource="@xml/accessibility_service_config" />
-99-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:82:17-69
-100        </service>
-101
-102        <!-- Служба STT (распознавание речи) -->
-103        <service
-103-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:86:9-89:58
-104            android:name="com.tsarshield.service.STTService"
-104-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:87:13-47
-105            android:exported="false"
-105-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:88:13-37
-106            android:foregroundServiceType="microphone" />
-106-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:89:13-55
-107
-108        <!-- Служба для оверлея -->
-109        <service
-109-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:92:9-95:58
-110            android:name="com.tsarshield.ui.OverlayService"
-110-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:93:13-46
-111            android:exported="false"
-111-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:94:13-37
-112            android:foregroundServiceType="specialUse" />
-112-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:95:13-55
-113
-114        <!-- Служба синхронизации -->
-115        <service
-115-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:98:9-100:40
-116            android:name="com.tsarshield.sync.SyncService"
-116-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:99:13-45
-117            android:exported="false" />
-117-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:100:13-37
-118
-119        <!-- Провайдер контента для настроек -->
-120        <provider
-121            android:name="androidx.core.content.FileProvider"
-121-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:104:13-62
-122            android:authorities="com.tsarshield.fileprovider"
-122-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:105:13-64
-123            android:exported="false"
-123-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:106:13-37
-124            android:grantUriPermissions="true" >
-124-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:107:13-47
-125            <meta-data
-125-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:108:13-110:54
-126                android:name="android.support.FILE_PROVIDER_PATHS"
-126-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:109:17-67
-127                android:resource="@xml/file_paths" />
-127-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:110:17-51
-128        </provider>
-129
-130        <!-- Receiver для событий телефонии -->
-131        <receiver
-131-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:114:9-122:20
-132            android:name="com.tsarshield.receiver.PhoneStateReceiver"
-132-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:115:13-56
-133            android:enabled="true"
-133-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:117:13-35
-134            android:exported="true" >
-134-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:116:13-36
-135            <intent-filter>
-135-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:118:13-121:29
-136                <action android:name="android.intent.action.PHONE_STATE" />
-136-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:119:17-76
-136-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:119:25-73
-137                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
-137-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:120:17-82
-137-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:120:25-79
-138            </intent-filter>
-139        </receiver>
-140
-141        <!-- Receiver для событий загрузки -->
-142        <receiver
-142-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:125:9-134:20
-143            android:name="com.tsarshield.receiver.BootReceiver"
-143-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:126:13-50
-144            android:enabled="true"
-144-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:128:13-35
-145            android:exported="true" >
-145-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:127:13-36
-146            <intent-filter>
-146-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:129:13-133:29
-147                <action android:name="android.intent.action.BOOT_COMPLETED" />
-147-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:130:17-79
-147-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:130:25-76
-148                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-148-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:131:17-82
-148-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:131:25-79
-149                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
-149-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:132:17-82
-149-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:132:25-79
-150            </intent-filter>
-151        </receiver>
-152
-153        <!-- Receiver для событий пакетов -->
-154        <receiver
-154-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:137:9-147:20
-155            android:name="com.tsarshield.receiver.PackageReceiver"
-155-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:138:13-53
-156            android:enabled="true"
-156-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:140:13-35
-157            android:exported="true" >
-157-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:139:13-36
-158            <intent-filter>
-158-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:141:13-146:29
-159                <action android:name="android.intent.action.PACKAGE_ADDED" />
-159-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:142:17-78
-159-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:142:25-75
-160                <action android:name="android.intent.action.PACKAGE_REPLACED" />
-160-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:143:17-81
-160-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:143:25-78
-161                <action android:name="android.intent.action.PACKAGE_REMOVED" />
-161-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:144:17-80
-161-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:144:25-77
-162
-163                <data android:scheme="package" />
-163-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:145:17-50
-163-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:145:23-47
-164            </intent-filter>
-165        </receiver>
-166
-167        <!-- WorkManager для периодических задач -->
-168        <provider
-169            android:name="androidx.work.impl.WorkManagerInitializer"
-169-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:151:13-69
-170            android:authorities="com.tsarshield.workmanager-init"
-170-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:152:13-68
-171            android:exported="false" />
-171-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:153:13-37
-172
-173        <!-- Мета-данные для Hilt -->
-174        <meta-data
-174-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:157:9-160:45
-175            android:name="dagger.hilt.android.internal.testing.Injector"
-175-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:158:13-73
-176            android:value="TsarShieldApplication_HiltComponents.SingletonC" />
-176-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:159:13-76
-177
-178        <provider
-178-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BOBAH\.gradle\caches\transforms-3\4a4e9673b71c512bbf801a782198b44f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-179            android:name="androidx.startup.InitializationProvider"
-179-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BOBAH\.gradle\caches\transforms-3\4a4e9673b71c512bbf801a782198b44f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
-180            android:authorities="com.tsarshield.androidx-startup"
-180-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BOBAH\.gradle\caches\transforms-3\4a4e9673b71c512bbf801a782198b44f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
-181            android:exported="false" >
-181-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BOBAH\.gradle\caches\transforms-3\4a4e9673b71c512bbf801a782198b44f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
-182            <meta-data
-182-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BOBAH\.gradle\caches\transforms-3\4a4e9673b71c512bbf801a782198b44f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-183                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-183-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BOBAH\.gradle\caches\transforms-3\4a4e9673b71c512bbf801a782198b44f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
-184                android:value="androidx.startup" />
-184-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BOBAH\.gradle\caches\transforms-3\4a4e9673b71c512bbf801a782198b44f\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
-185            <meta-data
-185-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:34:13-36:52
-186                android:name="androidx.work.WorkManagerInitializer"
-186-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:35:17-68
-187                android:value="androidx.startup" />
-187-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:36:17-49
-188            <meta-data
-188-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\BOBAH\.gradle\caches\transforms-3\82df44ccea36aa8c205fd4dcfa1d31b5\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-189                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-189-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\BOBAH\.gradle\caches\transforms-3\82df44ccea36aa8c205fd4dcfa1d31b5\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-190                android:value="androidx.startup" />
-190-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\BOBAH\.gradle\caches\transforms-3\82df44ccea36aa8c205fd4dcfa1d31b5\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-191            <meta-data
-191-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\62e05f8a3aaba3728cce237ea8b0301f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-192                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-192-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\62e05f8a3aaba3728cce237ea8b0301f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-193                android:value="androidx.startup" />
-193-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\62e05f8a3aaba3728cce237ea8b0301f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-194        </provider>
-195
-196        <service
-196-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:39:9-45:35
-197            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
-197-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:40:13-88
-198            android:directBootAware="false"
-198-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:41:13-44
-199            android:enabled="@bool/enable_system_alarm_service_default"
-199-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:42:13-72
-200            android:exported="false" />
-200-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:43:13-37
-201        <service
-201-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:46:9-52:35
-202            android:name="androidx.work.impl.background.systemjob.SystemJobService"
-202-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:47:13-84
-203            android:directBootAware="false"
-203-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:48:13-44
-204            android:enabled="@bool/enable_system_job_service_default"
-204-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:49:13-70
-205            android:exported="true"
-205-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:50:13-36
-206            android:permission="android.permission.BIND_JOB_SERVICE" />
-206-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:51:13-69
-207        <service
-207-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:53:9-59:35
-208            android:name="androidx.work.impl.foreground.SystemForegroundService"
-208-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:54:13-81
-209            android:directBootAware="false"
-209-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:55:13-44
-210            android:enabled="@bool/enable_system_foreground_service_default"
-210-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:56:13-77
-211            android:exported="false" />
-211-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:57:13-37
-212
-213        <receiver
-213-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:61:9-66:35
-214            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
-214-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:62:13-88
-215            android:directBootAware="false"
-215-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:63:13-44
-216            android:enabled="true"
-216-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:64:13-35
-217            android:exported="false" />
-217-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:65:13-37
-218        <receiver
-218-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:67:9-77:20
-219            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
-219-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:68:13-106
-220            android:directBootAware="false"
-220-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:69:13-44
-221            android:enabled="false"
-221-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:70:13-36
-222            android:exported="false" >
-222-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:71:13-37
-223            <intent-filter>
-223-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:73:13-76:29
-224                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-224-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:17-87
-224-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:25-84
-225                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-225-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:17-90
-225-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:25-87
-226            </intent-filter>
-227        </receiver>
-228        <receiver
-228-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:78:9-88:20
-229            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
-229-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:79:13-104
-230            android:directBootAware="false"
-230-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:80:13-44
-231            android:enabled="false"
-231-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:81:13-36
-232            android:exported="false" >
-232-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:82:13-37
-233            <intent-filter>
-233-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:84:13-87:29
-234                <action android:name="android.intent.action.BATTERY_OKAY" />
-234-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:17-77
-234-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:25-74
-235                <action android:name="android.intent.action.BATTERY_LOW" />
-235-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:17-76
-235-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:25-73
-236            </intent-filter>
-237        </receiver>
-238        <receiver
-238-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:89:9-99:20
-239            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
-239-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:90:13-104
-240            android:directBootAware="false"
-240-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:91:13-44
-241            android:enabled="false"
-241-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:92:13-36
-242            android:exported="false" >
-242-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:93:13-37
-243            <intent-filter>
-243-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:95:13-98:29
-244                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
-244-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:17-83
-244-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:25-80
-245                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
-245-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:17-82
-245-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:25-79
-246            </intent-filter>
-247        </receiver>
-248        <receiver
-248-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:100:9-109:20
-249            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
-249-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:101:13-103
-250            android:directBootAware="false"
-250-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:102:13-44
-251            android:enabled="false"
-251-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:103:13-36
-252            android:exported="false" >
-252-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:104:13-37
-253            <intent-filter>
-253-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:106:13-108:29
-254                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-254-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:107:17-79
-254-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:107:25-76
-255            </intent-filter>
-256        </receiver>
-257        <receiver
-257-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:110:9-121:20
-258            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
-258-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:111:13-88
-259            android:directBootAware="false"
-259-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:112:13-44
-260            android:enabled="false"
-260-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:113:13-36
-261            android:exported="false" >
-261-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:114:13-37
-262            <intent-filter>
-262-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:116:13-120:29
-263                <action android:name="android.intent.action.BOOT_COMPLETED" />
-263-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:130:17-79
-263-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:130:25-76
-264                <action android:name="android.intent.action.TIME_SET" />
-264-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:118:17-73
-264-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:118:25-70
-265                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-265-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:119:17-81
-265-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:119:25-78
-266            </intent-filter>
-267        </receiver>
-268        <receiver
-268-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:122:9-131:20
-269            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
-269-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:123:13-99
-270            android:directBootAware="false"
-270-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:124:13-44
-271            android:enabled="@bool/enable_system_alarm_service_default"
-271-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:125:13-72
-272            android:exported="false" >
-272-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:126:13-37
-273            <intent-filter>
-273-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:128:13-130:29
-274                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
-274-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:17-98
-274-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:25-95
-275            </intent-filter>
-276        </receiver>
-277        <receiver
-277-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:132:9-142:20
-278            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
-278-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:133:13-78
-279            android:directBootAware="false"
-279-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:134:13-44
-280            android:enabled="true"
-280-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:135:13-35
-281            android:exported="true"
-281-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:136:13-36
-282            android:permission="android.permission.DUMP" >
-282-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:137:13-57
-283            <intent-filter>
-283-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:139:13-141:29
-284                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
-284-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:17-88
-284-->[androidx.work:work-runtime:2.8.1] C:\Users\BOBAH\.gradle\caches\transforms-3\26e502c6a941adc409c0aeb80c0d5dab\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:25-85
-285            </intent-filter>
-286        </receiver>
-287
-288        <service
-288-->[androidx.room:room-runtime:2.6.0] C:\Users\BOBAH\.gradle\caches\transforms-3\49f2e95f9b2395bdec6bcf1ffdb4320a\transformed\room-runtime-2.6.0\AndroidManifest.xml:24:9-28:63
-289            android:name="androidx.room.MultiInstanceInvalidationService"
-289-->[androidx.room:room-runtime:2.6.0] C:\Users\BOBAH\.gradle\caches\transforms-3\49f2e95f9b2395bdec6bcf1ffdb4320a\transformed\room-runtime-2.6.0\AndroidManifest.xml:25:13-74
-290            android:directBootAware="true"
-290-->[androidx.room:room-runtime:2.6.0] C:\Users\BOBAH\.gradle\caches\transforms-3\49f2e95f9b2395bdec6bcf1ffdb4320a\transformed\room-runtime-2.6.0\AndroidManifest.xml:26:13-43
-291            android:exported="false" />
-291-->[androidx.room:room-runtime:2.6.0] C:\Users\BOBAH\.gradle\caches\transforms-3\49f2e95f9b2395bdec6bcf1ffdb4320a\transformed\room-runtime-2.6.0\AndroidManifest.xml:27:13-37
-292
-293        <receiver
-293-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\62e05f8a3aaba3728cce237ea8b0301f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-294            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-294-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\62e05f8a3aaba3728cce237ea8b0301f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-295            android:directBootAware="false"
-295-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\62e05f8a3aaba3728cce237ea8b0301f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-296            android:enabled="true"
-296-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\62e05f8a3aaba3728cce237ea8b0301f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-297            android:exported="true"
-297-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\62e05f8a3aaba3728cce237ea8b0301f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-298            android:permission="android.permission.DUMP" >
-298-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\62e05f8a3aaba3728cce237ea8b0301f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-299            <intent-filter>
-299-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\62e05f8a3aaba3728cce237ea8b0301f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-300                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-300-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\62e05f8a3aaba3728cce237ea8b0301f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-300-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\62e05f8a3aaba3728cce237ea8b0301f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-301            </intent-filter>
-302            <intent-filter>
-302-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\62e05f8a3aaba3728cce237ea8b0301f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-303                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-303-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\62e05f8a3aaba3728cce237ea8b0301f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-303-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\62e05f8a3aaba3728cce237ea8b0301f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-304            </intent-filter>
-305            <intent-filter>
-305-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\62e05f8a3aaba3728cce237ea8b0301f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-306                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-306-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\62e05f8a3aaba3728cce237ea8b0301f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-306-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\62e05f8a3aaba3728cce237ea8b0301f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-307            </intent-filter>
-308            <intent-filter>
-308-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\62e05f8a3aaba3728cce237ea8b0301f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-309                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-309-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\62e05f8a3aaba3728cce237ea8b0301f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-309-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\62e05f8a3aaba3728cce237ea8b0301f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-310            </intent-filter>
-311        </receiver>
-312    </application>
-313
-314</manifest>
+31
+32    <permission
+32-->[androidx.core:core:1.12.0] C:\Users\BOBAH\.gradle\caches\transforms-3\69bd4d0239c802f4572a63cce15fb7eb\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+33        android:name="com.tsar.shield.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+33-->[androidx.core:core:1.12.0] C:\Users\BOBAH\.gradle\caches\transforms-3\69bd4d0239c802f4572a63cce15fb7eb\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+34        android:protectionLevel="signature" />
+34-->[androidx.core:core:1.12.0] C:\Users\BOBAH\.gradle\caches\transforms-3\69bd4d0239c802f4572a63cce15fb7eb\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+35
+36    <uses-permission android:name="com.tsar.shield.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+36-->[androidx.core:core:1.12.0] C:\Users\BOBAH\.gradle\caches\transforms-3\69bd4d0239c802f4572a63cce15fb7eb\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+36-->[androidx.core:core:1.12.0] C:\Users\BOBAH\.gradle\caches\transforms-3\69bd4d0239c802f4572a63cce15fb7eb\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+37
+38    <application
+38-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:26:5-162:19
+39        android:name="com.tsar.shield.TsarShieldApplication"
+39-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:27:9-46
+40        android:allowBackup="true"
+40-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:28:9-35
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.12.0] C:\Users\BOBAH\.gradle\caches\transforms-3\69bd4d0239c802f4572a63cce15fb7eb\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+42        android:dataExtractionRules="@xml/data_extraction_rules"
+42-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:29:9-65
+43        android:debuggable="true"
+44        android:extractNativeLibs="false"
+45        android:fullBackupContent="@xml/backup_rules"
+45-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:30:9-54
+46        android:icon="@mipmap/ic_launcher"
+46-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:31:9-43
+47        android:label="@string/app_name"
+47-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:32:9-41
+48        android:roundIcon="@mipmap/ic_launcher_round"
+48-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:33:9-54
+49        android:supportsRtl="true"
+49-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:34:9-35
+50        android:theme="@style/Theme.TsarShield"
+50-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:35:9-48
+51        android:usesCleartextTraffic="false" >
+51-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:36:9-45
+52
+53        <!-- Основная активность -->
+54        <activity
+54-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:41:9-55:20
+55            android:name="com.tsar.shield.ui.MainActivity"
+55-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:42:13-44
+56            android:exported="true"
+56-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:43:13-36
+57            android:launchMode="singleTop"
+57-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:44:13-43
+58            android:windowSoftInputMode="adjustResize" >
+58-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:45:13-55
+59            <intent-filter>
+59-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:46:13-49:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:47:17-69
+60-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:47:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:48:17-77
+62-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:48:27-74
+63            </intent-filter>
+64
+65            <!-- Для открытия настроек CallScreening -->
+66            <intent-filter>
+66-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:52:13-54:29
+67                <action android:name="android.telecom.action.CHANGE_DEFAULT_DIALER" />
+67-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:53:17-87
+67-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:53:25-84
+68            </intent-filter>
+69        </activity>
+70
+71        <!-- Служба перехвата вызовов (CallScreening) -->
+72        <service
+72-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:58:9-69:19
+73            android:name="com.tsar.shield.service.CallScreeningService"
+73-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:59:13-57
+74            android:enabled="true"
+74-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:62:13-35
+75            android:exported="true"
+75-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:61:13-36
+76            android:permission="android.permission.BIND_SCREENING_SERVICE" >
+76-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:60:13-75
+77            <intent-filter>
+77-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:63:13-65:29
+78                <action android:name="android.telecom.CallScreeningService" />
+78-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:64:17-79
+78-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:64:25-76
+79            </intent-filter>
+80
+81            <meta-data
+81-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:66:13-68:66
+82                android:name="android.telecom.CallScreeningService"
+82-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:67:17-68
+83                android:resource="@xml/call_screening_service" />
+83-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:68:17-63
+84        </service>
+85
+86        <!-- Служба Accessibility -->
+87        <service
+87-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:72:9-83:19
+88            android:name="com.tsar.shield.service.AccessibilityService"
+88-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:73:13-57
+89            android:enabled="true"
+89-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:76:13-35
+90            android:exported="true"
+90-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:75:13-36
+91            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+91-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:74:13-79
+92            <intent-filter>
+92-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:77:13-79:29
+93                <action android:name="android.accessibilityservice.AccessibilityService" />
+93-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:78:17-92
+93-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:78:25-89
+94            </intent-filter>
+95
+96            <meta-data
+96-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:80:13-82:72
+97                android:name="android.accessibilityservice"
+97-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:81:17-60
+98                android:resource="@xml/accessibility_service_config" />
+98-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:82:17-69
+99        </service>
+100
+101        <!-- Служба STT (распознавание речи) -->
+102        <service
+102-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:86:9-89:58
+103            android:name="com.tsar.shield.service.STTService"
+103-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:87:13-47
+104            android:exported="false"
+104-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:88:13-37
+105            android:foregroundServiceType="microphone" />
+105-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:89:13-55
+106
+107        <!-- Служба для оверлея -->
+108        <service
+108-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:92:9-95:58
+109            android:name="com.tsar.shield.ui.OverlayService"
+109-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:93:13-46
+110            android:exported="false"
+110-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:94:13-37
+111            android:foregroundServiceType="specialUse" />
+111-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:95:13-55
+112
+113        <!-- Служба синхронизации -->
+114        <service
+114-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:98:9-100:40
+115            android:name="com.tsar.shield.sync.SyncService"
+115-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:99:13-45
+116            android:exported="false" />
+116-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:100:13-37
+117
+118        <!-- Провайдер контента для настроек -->
+119        <provider
+120            android:name="androidx.core.content.FileProvider"
+120-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:104:13-62
+121            android:authorities="com.tsar.shield.fileprovider"
+121-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:105:13-64
+122            android:exported="false"
+122-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:106:13-37
+123            android:grantUriPermissions="true" >
+123-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:107:13-47
+124            <meta-data
+124-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:108:13-110:54
+125                android:name="android.support.FILE_PROVIDER_PATHS"
+125-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:109:17-67
+126                android:resource="@xml/file_paths" />
+126-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:110:17-51
+127        </provider>
+128
+129        <!-- Receiver для событий телефонии -->
+130        <receiver
+130-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:114:9-122:20
+131            android:name="com.tsar.shield.receiver.PhoneStateReceiver"
+131-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:115:13-56
+132            android:enabled="true"
+132-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:117:13-35
+133            android:exported="true" >
+133-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:116:13-36
+134            <intent-filter>
+134-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:118:13-121:29
+135                <action android:name="android.intent.action.PHONE_STATE" />
+135-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:119:17-76
+135-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:119:25-73
+136                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+136-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:120:17-82
+136-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:120:25-79
+137            </intent-filter>
+138        </receiver>
+139
+140        <!-- Receiver для событий загрузки -->
+141        <receiver
+141-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:125:9-134:20
+142            android:name="com.tsar.shield.receiver.BootReceiver"
+142-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:126:13-50
+143            android:enabled="true"
+143-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:128:13-35
+144            android:exported="true" >
+144-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:127:13-36
+145            <intent-filter>
+145-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:129:13-133:29
+146                <action android:name="android.intent.action.BOOT_COMPLETED" />
+146-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:130:17-79
+146-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:130:25-76
+147                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+147-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:131:17-82
+147-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:131:25-79
+148                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+148-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:132:17-82
+148-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:132:25-79
+149            </intent-filter>
+150        </receiver>
+151
+152        <!-- Receiver для событий пакетов -->
+153        <receiver
+153-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:137:9-147:20
+154            android:name="com.tsar.shield.receiver.PackageReceiver"
+154-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:138:13-53
+155            android:enabled="true"
+155-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:140:13-35
+156            android:exported="true" >
+156-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:139:13-36
+157            <intent-filter>
+157-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:141:13-146:29
+158                <action android:name="android.intent.action.PACKAGE_ADDED" />
+158-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:142:17-78
+158-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:142:25-75
+159                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+159-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:143:17-81
+159-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:143:25-78
+160                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+160-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:144:17-80
+160-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:144:25-77
+161
+162                <data android:scheme="package" />
+162-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:145:17-50
+162-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:145:23-47
+163            </intent-filter>
+164        </receiver>
+165
+166        <!-- WorkManager для периодических задач -->
+167        <provider
+168            android:name="androidx.work.impl.WorkManagerInitializer"
+168-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:151:13-69
+169            android:authorities="com.tsar.shield.workmanager-init"
+169-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:152:13-68
+170            android:exported="false" />
+170-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:153:13-37
+171
+172        <!-- Мета-данные для Hilt -->
+173        <meta-data
+173-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:157:9-160:45
+174            android:name="dagger.hilt.android.internal.testing.Injector"
+174-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:158:13-73
+175            android:value="TsarShieldApplication_HiltComponents.SingletonC" />
+175-->C:\Tsar_anti-fraud\app\src\main\AndroidManifest.xml:159:13-76
+176
+177        <provider
+177-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BOBAH\.gradle\caches\transforms-3\05039d2f82102f14564f479a98023f53\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+178            android:name="androidx.startup.InitializationProvider"
+178-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BOBAH\.gradle\caches\transforms-3\05039d2f82102f14564f479a98023f53\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+179            android:authorities="com.tsar.shield.androidx-startup"
+179-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BOBAH\.gradle\caches\transforms-3\05039d2f82102f14564f479a98023f53\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+180            android:exported="false" >
+180-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BOBAH\.gradle\caches\transforms-3\05039d2f82102f14564f479a98023f53\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+181            <meta-data
+181-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BOBAH\.gradle\caches\transforms-3\05039d2f82102f14564f479a98023f53\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+182                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+182-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BOBAH\.gradle\caches\transforms-3\05039d2f82102f14564f479a98023f53\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+183                android:value="androidx.startup" />
+183-->[androidx.emoji2:emoji2:1.2.0] C:\Users\BOBAH\.gradle\caches\transforms-3\05039d2f82102f14564f479a98023f53\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+184            <meta-data
+184-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\BOBAH\.gradle\caches\transforms-3\402f60d7a684b8c29eb54e3c9ced23c8\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+185                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+185-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\BOBAH\.gradle\caches\transforms-3\402f60d7a684b8c29eb54e3c9ced23c8\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+186                android:value="androidx.startup" />
+186-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\BOBAH\.gradle\caches\transforms-3\402f60d7a684b8c29eb54e3c9ced23c8\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+187            <meta-data
+187-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\fa0848230de8d2461af814b05f43181c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+188                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+188-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\fa0848230de8d2461af814b05f43181c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+189                android:value="androidx.startup" />
+189-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\fa0848230de8d2461af814b05f43181c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+190        </provider>
+191
+192        <service
+192-->[androidx.room:room-runtime:2.6.1] C:\Users\BOBAH\.gradle\caches\transforms-3\f77b18cb8a4ccd099b74613f9fc6f5bc\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+193            android:name="androidx.room.MultiInstanceInvalidationService"
+193-->[androidx.room:room-runtime:2.6.1] C:\Users\BOBAH\.gradle\caches\transforms-3\f77b18cb8a4ccd099b74613f9fc6f5bc\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+194            android:directBootAware="true"
+194-->[androidx.room:room-runtime:2.6.1] C:\Users\BOBAH\.gradle\caches\transforms-3\f77b18cb8a4ccd099b74613f9fc6f5bc\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+195            android:exported="false" />
+195-->[androidx.room:room-runtime:2.6.1] C:\Users\BOBAH\.gradle\caches\transforms-3\f77b18cb8a4ccd099b74613f9fc6f5bc\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+196
+197        <receiver
+197-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\fa0848230de8d2461af814b05f43181c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+198            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+198-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\fa0848230de8d2461af814b05f43181c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+199            android:directBootAware="false"
+199-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\fa0848230de8d2461af814b05f43181c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+200            android:enabled="true"
+200-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\fa0848230de8d2461af814b05f43181c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+201            android:exported="true"
+201-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\fa0848230de8d2461af814b05f43181c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+202            android:permission="android.permission.DUMP" >
+202-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\fa0848230de8d2461af814b05f43181c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+203            <intent-filter>
+203-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\fa0848230de8d2461af814b05f43181c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+204                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+204-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\fa0848230de8d2461af814b05f43181c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+204-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\fa0848230de8d2461af814b05f43181c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+205            </intent-filter>
+206            <intent-filter>
+206-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\fa0848230de8d2461af814b05f43181c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+207                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+207-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\fa0848230de8d2461af814b05f43181c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+207-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\fa0848230de8d2461af814b05f43181c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+208            </intent-filter>
+209            <intent-filter>
+209-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\fa0848230de8d2461af814b05f43181c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+210                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+210-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\fa0848230de8d2461af814b05f43181c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+210-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\fa0848230de8d2461af814b05f43181c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+211            </intent-filter>
+212            <intent-filter>
+212-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\fa0848230de8d2461af814b05f43181c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+213                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+213-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\fa0848230de8d2461af814b05f43181c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+213-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\BOBAH\.gradle\caches\transforms-3\fa0848230de8d2461af814b05f43181c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+214            </intent-filter>
+215        </receiver>
+216    </application>
+217
+218</manifest>

@@ -624,11 +624,7 @@
     </attr>
     <bool name="abc_action_bar_embed_tabs">true</bool>
     <bool name="abc_config_actionMenuItemAllCaps">true</bool>
-    <bool name="enable_system_alarm_service_default">true</bool>
-    <bool name="enable_system_foreground_service_default">true</bool>
-    <bool name="enable_system_job_service_default">false</bool>
     <bool name="mtrl_btn_textappearance_all_caps">true</bool>
-    <bool name="workmanager_test_configuration">false</bool>
     <color name="abc_decor_view_status_guard">#ff000000</color>
     <color name="abc_decor_view_status_guard_light">#ffffffff</color>
     <color name="abc_search_url_text_normal">#7fa87f</color>
@@ -718,29 +714,29 @@
     <color name="m3_ref_palette_error95">#fffceeee</color>
     <color name="m3_ref_palette_error99">#fffffbf9</color>
     <color name="m3_ref_palette_neutral0">#ff000000</color>
-    <color name="m3_ref_palette_neutral10">#ff1c1b1f</color>
+    <color name="m3_ref_palette_neutral10">#ff1d1b20</color>
     <color name="m3_ref_palette_neutral100">#ffffffff</color>
-    <color name="m3_ref_palette_neutral12">#ff201f23</color>
-    <color name="m3_ref_palette_neutral17">#ff2b292d</color>
-    <color name="m3_ref_palette_neutral20">#ff313033</color>
-    <color name="m3_ref_palette_neutral22">#ff313033</color>
-    <color name="m3_ref_palette_neutral24">#ff313033</color>
-    <color name="m3_ref_palette_neutral30">#ff484649</color>
-    <color name="m3_ref_palette_neutral4">#ff0e0e11</color>
-    <color name="m3_ref_palette_neutral40">#ff605d62</color>
-    <color name="m3_ref_palette_neutral50">#ff787579</color>
-    <color name="m3_ref_palette_neutral6">#ff141317</color>
-    <color name="m3_ref_palette_neutral60">#ff939094</color>
-    <color name="m3_ref_palette_neutral70">#ffaeaaae</color>
-    <color name="m3_ref_palette_neutral80">#ffc9c5ca</color>
-    <color name="m3_ref_palette_neutral87">#ffddd8dd</color>
-    <color name="m3_ref_palette_neutral90">#ffe6e1e5</color>
-    <color name="m3_ref_palette_neutral92">#ffece7ec</color>
-    <color name="m3_ref_palette_neutral94">#fff1ecf1</color>
-    <color name="m3_ref_palette_neutral95">#fff4eff4</color>
-    <color name="m3_ref_palette_neutral96">#fff7f2f7</color>
-    <color name="m3_ref_palette_neutral98">#fffdf8fd</color>
-    <color name="m3_ref_palette_neutral99">#fffffbfe</color>
+    <color name="m3_ref_palette_neutral12">#ff211f26</color>
+    <color name="m3_ref_palette_neutral17">#ff2b2930</color>
+    <color name="m3_ref_palette_neutral20">#ff322f35</color>
+    <color name="m3_ref_palette_neutral22">#ff36343b</color>
+    <color name="m3_ref_palette_neutral24">#ff3b383e</color>
+    <color name="m3_ref_palette_neutral30">#ff48464c</color>
+    <color name="m3_ref_palette_neutral4">#ff0f0d13</color>
+    <color name="m3_ref_palette_neutral40">#ff605d64</color>
+    <color name="m3_ref_palette_neutral50">#ff79767d</color>
+    <color name="m3_ref_palette_neutral6">#ff141218</color>
+    <color name="m3_ref_palette_neutral60">#ff938f96</color>
+    <color name="m3_ref_palette_neutral70">#ffaea9b1</color>
+    <color name="m3_ref_palette_neutral80">#ffcac5cd</color>
+    <color name="m3_ref_palette_neutral87">#ffded8e1</color>
+    <color name="m3_ref_palette_neutral90">#ffe6e0e9</color>
+    <color name="m3_ref_palette_neutral92">#ffece6f0</color>
+    <color name="m3_ref_palette_neutral94">#fff3edf7</color>
+    <color name="m3_ref_palette_neutral95">#fff5eff7</color>
+    <color name="m3_ref_palette_neutral96">#fff7f2fa</color>
+    <color name="m3_ref_palette_neutral98">#fffef7ff</color>
+    <color name="m3_ref_palette_neutral99">#fffffbff</color>
     <color name="m3_ref_palette_neutral_variant0">#ff000000</color>
     <color name="m3_ref_palette_neutral_variant10">#ff1d1a22</color>
     <color name="m3_ref_palette_neutral_variant100">#ffffffff</color>
@@ -794,7 +790,7 @@
     <color name="m3_ref_palette_tertiary95">#ffffecf1</color>
     <color name="m3_ref_palette_tertiary99">#fffffbfa</color>
     <color name="m3_ref_palette_white">#ffffffff</color>
-    <color name="m3_sys_color_dark_background">@color/m3_ref_palette_neutral10</color>
+    <color name="m3_sys_color_dark_background">@color/m3_ref_palette_neutral6</color>
     <color name="m3_sys_color_dark_error">@color/m3_ref_palette_error80</color>
     <color name="m3_sys_color_dark_error_container">@color/m3_ref_palette_error30</color>
     <color name="m3_sys_color_dark_inverse_on_surface">@color/m3_ref_palette_neutral20</color>
@@ -817,7 +813,7 @@
     <color name="m3_sys_color_dark_primary_container">@color/m3_ref_palette_primary30</color>
     <color name="m3_sys_color_dark_secondary">@color/m3_ref_palette_secondary80</color>
     <color name="m3_sys_color_dark_secondary_container">@color/m3_ref_palette_secondary30</color>
-    <color name="m3_sys_color_dark_surface">@color/m3_ref_palette_neutral10</color>
+    <color name="m3_sys_color_dark_surface">@color/m3_ref_palette_neutral6</color>
     <color name="m3_sys_color_dark_surface_bright">@color/m3_ref_palette_neutral24</color>
     <color name="m3_sys_color_dark_surface_container">@color/m3_ref_palette_neutral12</color>
     <color name="m3_sys_color_dark_surface_container_high">@color/m3_ref_palette_neutral17</color>
@@ -828,7 +824,7 @@
     <color name="m3_sys_color_dark_surface_variant">@color/m3_ref_palette_neutral_variant30</color>
     <color name="m3_sys_color_dark_tertiary">@color/m3_ref_palette_tertiary80</color>
     <color name="m3_sys_color_dark_tertiary_container">@color/m3_ref_palette_tertiary30</color>
-    <color name="m3_sys_color_light_background">@color/m3_ref_palette_neutral99</color>
+    <color name="m3_sys_color_light_background">@color/m3_ref_palette_neutral98</color>
     <color name="m3_sys_color_light_error">@color/m3_ref_palette_error40</color>
     <color name="m3_sys_color_light_error_container">@color/m3_ref_palette_error90</color>
     <color name="m3_sys_color_light_inverse_on_surface">@color/m3_ref_palette_neutral95</color>
@@ -851,7 +847,7 @@
     <color name="m3_sys_color_light_primary_container">@color/m3_ref_palette_primary90</color>
     <color name="m3_sys_color_light_secondary">@color/m3_ref_palette_secondary40</color>
     <color name="m3_sys_color_light_secondary_container">@color/m3_ref_palette_secondary90</color>
-    <color name="m3_sys_color_light_surface">@color/m3_ref_palette_neutral99</color>
+    <color name="m3_sys_color_light_surface">@color/m3_ref_palette_neutral98</color>
     <color name="m3_sys_color_light_surface_bright">@color/m3_ref_palette_neutral98</color>
     <color name="m3_sys_color_light_surface_container">@color/m3_ref_palette_neutral94</color>
     <color name="m3_sys_color_light_surface_container_high">@color/m3_ref_palette_neutral92</color>
@@ -960,6 +956,7 @@
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
+    <color name="splashscreen_background">#0a2a0a</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
@@ -1408,6 +1405,7 @@
     <dimen name="m3_large_fab_size">96dp</dimen>
     <dimen name="m3_large_text_vertical_offset_adjustment">4dp</dimen>
     <dimen name="m3_menu_elevation">@dimen/m3_comp_menu_container_elevation</dimen>
+    <dimen name="m3_nav_badge_with_text_vertical_offset">14dp</dimen>
     <dimen name="m3_navigation_drawer_layout_corner_size">16dp</dimen>
     <dimen name="m3_navigation_item_active_indicator_label_padding">4dp</dimen>
     <dimen name="m3_navigation_item_horizontal_padding">28dp</dimen>
@@ -1501,9 +1499,9 @@
     <item format="float" name="m3_sys_motion_easing_standard_decelerate_control_y1" type="dimen">0</item>
     <item format="float" name="m3_sys_motion_easing_standard_decelerate_control_y2" type="dimen">1</item>
     <item format="float" name="m3_sys_state_dragged_state_layer_opacity" type="dimen">0.16</item>
-    <item format="float" name="m3_sys_state_focus_state_layer_opacity" type="dimen">0.12</item>
+    <item format="float" name="m3_sys_state_focus_state_layer_opacity" type="dimen">0.10</item>
     <item format="float" name="m3_sys_state_hover_state_layer_opacity" type="dimen">0.08</item>
-    <item format="float" name="m3_sys_state_pressed_state_layer_opacity" type="dimen">0.12</item>
+    <item format="float" name="m3_sys_state_pressed_state_layer_opacity" type="dimen">0.10</item>
     <dimen name="m3_timepicker_display_stroke_width">2dp</dimen>
     <dimen name="m3_timepicker_window_elevation">@dimen/m3_comp_time_picker_container_elevation</dimen>
     <dimen name="m3_toolbar_text_size_title">20dp</dimen>
@@ -1511,6 +1509,7 @@
     <dimen name="material_clock_display_height">80dp</dimen>
     <dimen name="material_clock_display_padding">24dp</dimen>
     <dimen name="material_clock_display_width">96dp</dimen>
+    <dimen name="material_clock_face_margin_bottom">24dp</dimen>
     <dimen name="material_clock_face_margin_top">44dp</dimen>
     <dimen name="material_clock_hand_center_dot_radius">4dp</dimen>
     <dimen name="material_clock_hand_padding">4dp</dimen>
@@ -1543,7 +1542,6 @@
     <dimen name="material_textinput_min_width">56dp</dimen>
     <dimen name="material_time_picker_minimum_screen_height">560dp</dimen>
     <dimen name="material_time_picker_minimum_screen_width">340dp</dimen>
-    <dimen name="material_timepicker_dialog_buttons_margin_top">24dp</dimen>
     <dimen name="mtrl_alert_dialog_background_inset_bottom">80dp</dimen>
     <dimen name="mtrl_alert_dialog_background_inset_end">24dp</dimen>
     <dimen name="mtrl_alert_dialog_background_inset_start">24dp</dimen>
@@ -2105,7 +2103,7 @@
     <string description="A single date [CHAR_LIMIT=60]" name="mtrl_picker_date_header_selected">%1$s</string>
     <string description="Indicates that the user must take the action of picking a date within the calendar [CHAR_LIMIT=60]" name="mtrl_picker_date_header_title">Select Date</string>
     <string description="Placeholder for a single date [CHAR_LIMIT=60]" name="mtrl_picker_date_header_unselected">Selected date</string>
-    <string description="a11y string to indicate this is a header for a column of days for one day of the week (e.g., Monday) [CHAR_LIMIT=NONE]" name="mtrl_picker_day_of_week_column_header">Column of days: %1$s</string>
+    <string description="a11y string to indicate this is a header for a column of days for one day of the week (e.g., Monday) [CHAR_LIMIT=NONE]" name="mtrl_picker_day_of_week_column_header">%1$s</string>
     <string description="a11y string that informs the user that the focused day is the end of a range [CHAR_LIMIT=NONE]" name="mtrl_picker_end_date_description">End date %1$s</string>
     <string description="Indicates that the user entered date cannot be parsed because its format is wrong. [CHAR_LIMIT=36]" name="mtrl_picker_invalid_format">Invalid format.</string>
     <string description="Tells a user what an example valid entry looks like. [CHAR_LIMIT=18]" name="mtrl_picker_invalid_format_example">Example: %1$s</string>
@@ -5244,15 +5242,15 @@
     <style name="Base.Widget.Material3.ActionBar.Solid" parent="Widget.AppCompat.ActionBar.Solid">
     <item name="titleTextStyle">@style/TextAppearance.Material3.ActionBar.Title</item>
     <item name="subtitleTextStyle">@style/TextAppearance.Material3.ActionBar.Subtitle</item>
-    <item name="background">@macro/m3_comp_top_app_bar_small_container_color</item>
-    <item name="backgroundStacked">@macro/m3_comp_top_app_bar_small_container_color</item>
-    <item name="backgroundSplit">@macro/m3_comp_top_app_bar_small_container_color</item>
+    <item name="background">@macro/m3_comp_top_app_bar_small_on_scroll_container_color</item>
+    <item name="backgroundStacked">@macro/m3_comp_top_app_bar_small_on_scroll_container_color</item>
+    <item name="backgroundSplit">@macro/m3_comp_top_app_bar_small_on_scroll_container_color</item>
   </style>
     <style name="Base.Widget.Material3.ActionMode" parent="Widget.AppCompat.ActionMode">
     <item name="titleTextStyle">@style/TextAppearance.Material3.ActionBar.Title</item>
     <item name="subtitleTextStyle">@style/TextAppearance.Material3.ActionBar.Subtitle</item>
-    <item name="background">@macro/m3_comp_top_app_bar_small_container_color</item>
-    <item name="backgroundSplit">@macro/m3_comp_top_app_bar_small_container_color</item>
+    <item name="background">@macro/m3_comp_top_app_bar_small_on_scroll_container_color</item>
+    <item name="backgroundSplit">@macro/m3_comp_top_app_bar_small_on_scroll_container_color</item>
   </style>
     <style name="Base.Widget.Material3.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
     <item name="android:background">@macro/m3_comp_navigation_bar_container_color</item>
@@ -5407,9 +5405,9 @@
     <style name="Base.Widget.Material3.Light.ActionBar.Solid" parent="Widget.AppCompat.Light.ActionBar.Solid">
     <item name="titleTextStyle">@style/TextAppearance.Material3.ActionBar.Title</item>
     <item name="subtitleTextStyle">@style/TextAppearance.Material3.ActionBar.Subtitle</item>
-    <item name="background">@macro/m3_comp_top_app_bar_small_container_color</item>
-    <item name="backgroundStacked">@macro/m3_comp_top_app_bar_small_container_color</item>
-    <item name="backgroundSplit">@macro/m3_comp_top_app_bar_small_container_color</item>
+    <item name="background">@macro/m3_comp_top_app_bar_small_on_scroll_container_color</item>
+    <item name="backgroundStacked">@macro/m3_comp_top_app_bar_small_on_scroll_container_color</item>
+    <item name="backgroundSplit">@macro/m3_comp_top_app_bar_small_on_scroll_container_color</item>
   </style>
     <style name="Base.Widget.Material3.MaterialCalendar.NavigationButton" parent="Widget.Material3.Button.TextButton.Dialog.Flush">
     <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
@@ -6678,8 +6676,8 @@
         <item name="colorSurface">@color/white</item>
         <item name="colorOnSurface">@color/black</item>
         
-        <item name="colorBackground">@color/white</item>
-        <item name="colorOnBackground">@color/black</item>
+        
+        
         
         <item name="colorError">@color/red_500</item>
         <item name="colorOnError">@color/white</item>
@@ -6724,8 +6722,8 @@
         <item name="colorSurface">@color/gray_900</item>
         <item name="colorOnSurface">@color/white</item>
         
-        <item name="colorBackground">@color/gray_900</item>
-        <item name="colorOnBackground">@color/white</item>
+        
+        
         
         <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
         <item name="android:windowLightStatusBar" ns1:targetApi="m">false</item>
@@ -6773,7 +6771,7 @@
     <item name="actionMenuTextColor">?attr/colorOnSurface</item>
   </style>
     <style name="ThemeOverlay.Material3.BottomNavigationView" parent="">
-    <item name="badgeStyle">@style/Widget.Material3.Badge.AdjustToBounds</item>
+    <item name="badgeStyle">@style/Widget.Material3.BottomNavigation.Badge</item>
   </style>
     <style name="ThemeOverlay.Material3.BottomSheetDialog" parent="Base.ThemeOverlay.Material3.BottomSheetDialog"/>
     <style name="ThemeOverlay.Material3.Button" parent="">
@@ -7510,6 +7508,7 @@
     <style name="Widget.Material3.AppBarLayout" parent="Widget.MaterialComponents.AppBarLayout.Surface">
     <item name="liftOnScroll">true</item>
     <item name="android:background">@macro/m3_comp_top_app_bar_small_container_color</item>
+    <item name="liftOnScrollColor">@macro/m3_comp_top_app_bar_small_on_scroll_container_color</item>
     <item name="android:stateListAnimator" ns1:ignore="NewApi">
       @animator/m3_appbar_state_list_animator
     </item>
@@ -7520,30 +7519,34 @@
   </style>
     <style name="Widget.Material3.AutoCompleteTextView.FilledBox" parent="Widget.MaterialComponents.AutoCompleteTextView.FilledBox">
     <item name="android:textAppearance">@macro/m3_comp_filled_autocomplete_text_field_input_text_type</item>
-    <item name="simpleItemSelectedColor">@macro/m3_comp_filled_autocomplete_menu_list_item_selected_container_color</item>
+    <item name="simpleItemSelectedColor">@macro/m3_comp_menu_list_item_selected_container_color</item>
     <item name="simpleItemSelectedRippleColor">@color/m3_simple_item_ripple_color</item>
     <item name="simpleItemLayout">@layout/m3_auto_complete_simple_item</item>
+    <item name="dropDownBackgroundTint">@macro/m3_comp_filled_autocomplete_menu_container_color</item>
     <item name="android:popupElevation" ns1:ignore="NewApi">@dimen/m3_comp_filled_autocomplete_menu_container_elevation</item>
   </style>
     <style name="Widget.Material3.AutoCompleteTextView.FilledBox.Dense" parent="Widget.MaterialComponents.AutoCompleteTextView.FilledBox.Dense">
     <item name="android:textAppearance">@macro/m3_comp_filled_autocomplete_text_field_input_text_type</item>
-    <item name="simpleItemSelectedColor">@macro/m3_comp_filled_autocomplete_menu_list_item_selected_container_color</item>
+    <item name="simpleItemSelectedColor">@macro/m3_comp_menu_list_item_selected_container_color</item>
     <item name="simpleItemSelectedRippleColor">@color/m3_simple_item_ripple_color</item>
     <item name="simpleItemLayout">@layout/m3_auto_complete_simple_item</item>
+    <item name="dropDownBackgroundTint">@macro/m3_comp_filled_autocomplete_menu_container_color</item>
     <item name="android:popupElevation" ns1:ignore="NewApi">@dimen/m3_comp_filled_autocomplete_menu_container_elevation</item>
   </style>
     <style name="Widget.Material3.AutoCompleteTextView.OutlinedBox" parent="Widget.MaterialComponents.AutoCompleteTextView.OutlinedBox">
     <item name="android:textAppearance">@macro/m3_comp_outlined_autocomplete_text_field_input_text_type</item>
-    <item name="simpleItemSelectedColor">@macro/m3_comp_outlined_autocomplete_menu_list_item_selected_container_color</item>
+    <item name="simpleItemSelectedColor">@macro/m3_comp_menu_list_item_selected_container_color</item>
     <item name="simpleItemSelectedRippleColor">@color/m3_simple_item_ripple_color</item>
     <item name="simpleItemLayout">@layout/m3_auto_complete_simple_item</item>
+    <item name="dropDownBackgroundTint">@macro/m3_comp_outlined_autocomplete_menu_container_color</item>
     <item name="android:popupElevation" ns1:ignore="NewApi">@dimen/m3_comp_outlined_autocomplete_menu_container_elevation</item>
   </style>
     <style name="Widget.Material3.AutoCompleteTextView.OutlinedBox.Dense" parent="Widget.MaterialComponents.AutoCompleteTextView.OutlinedBox.Dense">
     <item name="android:textAppearance">@macro/m3_comp_outlined_autocomplete_text_field_input_text_type</item>
-    <item name="simpleItemSelectedColor">@macro/m3_comp_outlined_autocomplete_menu_list_item_selected_container_color</item>
+    <item name="simpleItemSelectedColor">@macro/m3_comp_menu_list_item_selected_container_color</item>
     <item name="simpleItemSelectedRippleColor">@color/m3_simple_item_ripple_color</item>
     <item name="simpleItemLayout">@layout/m3_auto_complete_simple_item</item>
+    <item name="dropDownBackgroundTint">@macro/m3_comp_outlined_autocomplete_menu_container_color</item>
     <item name="android:popupElevation" ns1:ignore="NewApi">@dimen/m3_comp_outlined_autocomplete_menu_container_elevation</item>
   </style>
     <style name="Widget.Material3.Badge" parent="Widget.MaterialComponents.Badge">
@@ -7620,6 +7623,9 @@
     <item name="backgroundTint">@macro/m3_comp_bottom_app_bar_container_color</item>
     <item name="navigationIconTint">?attr/colorOnSurfaceVariant</item>
     <item name="materialThemeOverlay">@style/ThemeOverlay.Material3.BottomAppBar.Legacy</item>
+  </style>
+    <style name="Widget.Material3.BottomNavigation.Badge" parent="Widget.Material3.Badge.AdjustToBounds">
+    <item name="verticalOffsetWithText">@dimen/m3_nav_badge_with_text_vertical_offset</item>
   </style>
     <style name="Widget.Material3.BottomNavigationView" parent="Base.Widget.Material3.BottomNavigationView">
     <item name="compatShadowEnabled">false</item>
@@ -8282,9 +8288,10 @@
   </style>
     <style name="Widget.Material3.NavigationRailView.Badge" parent="Widget.Material3.Badge.AdjustToBounds">
     <item name="largeFontVerticalOffsetAdjustment">@dimen/m3_large_text_vertical_offset_adjustment</item>
+    <item name="verticalOffsetWithText">@dimen/m3_nav_badge_with_text_vertical_offset</item>
   </style>
     <style name="Widget.Material3.NavigationView" parent="Widget.MaterialComponents.NavigationView">
-    <item name="android:background">@macro/m3_comp_navigation_drawer_container_color</item>
+    <item name="android:background">@macro/m3_comp_navigation_drawer_modal_container_color</item>
     <item name="android:maxWidth">@dimen/m3_comp_navigation_drawer_container_width</item>
     <item name="subheaderColor">@macro/m3_comp_navigation_drawer_headline_color</item>
     <item name="subheaderTextAppearance">@macro/m3_comp_navigation_drawer_headline_type</item>
@@ -8385,7 +8392,7 @@
   </style>
     <style name="Widget.Material3.SideSheet" parent="">
     <item name="enforceMaterialTheme">true</item>
-    <item name="backgroundTint">@macro/m3_comp_sheet_side_docked_container_color</item>
+    <item name="backgroundTint">@macro/m3_comp_sheet_side_docked_standard_container_color</item>
     
     <item name="android:layout_gravity">end</item>
     <item name="android:elevation" ns1:ignore="NewApi">@dimen/m3_side_sheet_standard_elevation</item>
@@ -8398,6 +8405,7 @@
   </style>
     <style name="Widget.Material3.SideSheet.Modal">
     <item name="android:elevation" ns1:ignore="NewApi">@dimen/m3_side_sheet_modal_elevation</item>
+    <item name="backgroundTint">@macro/m3_comp_sheet_side_docked_modal_container_color</item>
     <item name="shapeAppearance">@macro/m3_comp_sheet_side_docked_modal_container_shape</item>
   </style>
     <style name="Widget.Material3.SideSheet.Modal.Detached">
@@ -9363,11 +9371,11 @@
     <declare-styleable name="ActionBar">
         
         <attr name="navigationMode">
-            
+            <!-- Normal static title text -->
             <enum name="normal" value="0"/>
-            
+            <!-- The action bar will use a selection list for navigation. -->
             <enum name="listMode" value="1"/>
-            
+            <!-- The action bar will use a series of horizontal tabs for navigation. -->
             <enum name="tabMode" value="2"/>
         </attr>
         
@@ -9535,32 +9543,45 @@
   </declare-styleable>
     <declare-styleable name="AppBarLayout_Layout">
     <attr name="layout_scrollFlags">
-      
+      <!-- Disable scrolling on the view. This flag should not be combined with any of the other
+           scroll flags. -->
       <flag name="noScroll" value="0x0"/>
 
-      
+      <!-- The view will be scroll in direct relation to scroll events. This flag needs to be
+           set for any of the other flags to take effect. If any sibling views
+           before this one do not have this flag, then this value has no effect. -->
       <flag name="scroll" value="0x1"/>
 
-      
+      <!-- When exiting (scrolling off screen) the view will be scrolled until it is
+           'collapsed'. The collapsed height is defined by the view's minimum height. -->
       <flag name="exitUntilCollapsed" value="0x2"/>
 
-      
+      <!-- When entering (scrolling on screen) the view will scroll on any downwards
+           scroll event, regardless of whether the scrolling view is also scrolling. This
+           is commonly referred to as the 'quick return' pattern. -->
       <flag name="enterAlways" value="0x4"/>
 
-      
+      <!-- An additional flag for 'enterAlways' which modifies the returning view to
+           only initially scroll back to it's collapsed height. Once the scrolling view has
+           reached the end of it's scroll range, the remainder of this view will be scrolled
+           into view. -->
       <flag name="enterAlwaysCollapsed" value="0x8"/>
 
-      
+      <!-- Upon a scroll ending, if the view is only partially visible then it will be
+           snapped and scrolled to it's closest edge. -->
       <flag name="snap" value="0x10"/>
 
-      
+      <!-- An additional flag to be used with 'snap'. If set, the view will be snapped to its
+           top and bottom margins, as opposed to the edges of the view itself. -->
       <flag name="snapMargins" value="0x20"/>
     </attr>
 
     <attr format="enum" name="layout_scrollEffect">
-      
+      <!-- No effect will be applied to this child when its parent
+           AppBarLayout's offset changes.-->
       <enum name="none" value="0"/>
-      
+      <!-- This view will be compressed (masked and parallaxed) when it reaches
+           the top of the screen and continues to scroll out of view.-->
       <enum name="compress" value="1"/>
     </attr>
 
@@ -9580,17 +9601,22 @@
 
         
         <attr name="tintMode">
-            
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
-            
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
             <enum name="src_in" value="5"/>
-            
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
             <enum name="src_atop" value="9"/>
-            
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
             <enum name="multiply" value="14"/>
-            
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
             <enum name="screen" value="15"/>
-            
+            <!-- Combines the tint and icon color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>
@@ -9602,17 +9628,22 @@
         <attr format="color" name="tickMarkTint"/>
         
         <attr name="tickMarkTintMode">
-            
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
-            
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
             <enum name="src_in" value="5"/>
-            
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
             <enum name="src_atop" value="9"/>
-            
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
             <enum name="multiply" value="14"/>
-            
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
             <enum name="screen" value="15"/>
-            
+            <!-- Combines the tint and drawable color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>
@@ -9633,9 +9664,10 @@
         <attr name="android:textAppearance"/>
         
         <attr format="enum" name="autoSizeTextType">
-            
+            <!-- No auto-sizing (default). -->
             <enum name="none" value="0"/>
-            
+            <!-- Uniform horizontal and vertical text size scaling to fit within the
+            container. -->
             <enum name="uniform" value="1"/>
         </attr>
         
@@ -9667,17 +9699,22 @@
         <attr format="color" name="drawableTint"/>
         
         <attr name="drawableTintMode">
-            
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
-            
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
             <enum name="src_in" value="5"/>
-            
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
             <enum name="src_atop" value="9"/>
-            
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
             <enum name="multiply" value="14"/>
-            
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
             <enum name="screen" value="15"/>
-            
+            <!-- Combines the tint and drawable color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
         
@@ -10070,13 +10107,13 @@
     <attr format="string" name="badgeText"/>
     <attr format="integer" name="number"/>
     <attr name="badgeGravity">
-      
+      <!-- Gravity.TOP | Gravity.END -->
       <enum name="TOP_END" value="8388661"/>
-      
+      <!-- Gravity.TOP | Gravity.START -->
       <enum name="TOP_START" value="8388659"/>
-      
+      <!-- Gravity.BOTTOM | Gravity.END -->
       <enum name="BOTTOM_END" value="8388693"/>
-      
+      <!-- Gravity.BOTTOM | Gravity.START -->
       <enum name="BOTTOM_START" value="8388691"/>
     </attr>
     
@@ -10092,9 +10129,11 @@
 
     
     <attr name="offsetAlignmentMode">
-      
+      <!-- The offsets begin at the edge of the anchor. -->
       <enum name="edge" value="0"/>
-      
+      <!-- Follows the legacy offset alignment behavior. The horizontal offset begins at a variable
+           permanent inset from the edge of the anchor, and the vertical offset begins at the center
+           of the badge aligned with the edge of the anchor. -->
       <enum name="legacy" value="1"/>
     </attr>
 
@@ -10124,20 +10163,32 @@
     <attr name="trackColor"/>
     
     <attr name="showAnimationBehavior">
-      
+      <!-- No animation used; appears immediately. -->
       <enum name="none" value="0"/>
-      
+      <!--
+        Expands from the bottom edge to the top edge for the linear type;
+        expands from the inner edge to the outer edge for the circular type.
+      -->
       <enum name="outward" value="1"/>
-      
+      <!--
+        Expands from the top edge to the bottom edge for the linear type;
+        expands from the outer edge to the inner edge for the circular type.
+      -->
       <enum name="inward" value="2"/>
     </attr>
     
     <attr name="hideAnimationBehavior">
-      
+      <!-- No animation used; disappears immediately. -->
       <enum name="none" value="0"/>
-      
+      <!--
+        Collapses from the bottom edge to the top edge for the linear type;
+        collapses from the inner edge to the outer edge for the circular type.
+      -->
       <enum name="outward" value="1"/>
-      
+      <!--
+        Collapses from the top edge to the bottom edge for the linear type;
+        collapses from the outer edge to the inner edge for the circular type.
+      -->
       <enum name="inward" value="2"/>
     </attr>
     
@@ -10154,23 +10205,23 @@
     <attr name="elevation"/>
     
     <attr name="fabAlignmentMode">
-      
+      <!-- Mode that aligns the fab to the center. -->
       <enum name="center" value="0"/>
-      
+      <!-- Mode that aligns the fab to the end. -->
       <enum name="end" value="1"/>
     </attr>
     
     <attr name="fabAnchorMode">
-      
+      <!-- Mode that anchors the fab embedded inside the BottomAppBar. -->
       <enum name="embed" value="0"/>
-      
+      <!-- Mode that anchors the fab to be cradled within the top edge of the BottomAppBar. -->
       <enum name="cradle" value="1"/>
     </attr>
     
     <attr name="fabAnimationMode">
-      
+      <!-- Mode that scales the fab down to a point, moves it, then scales the fab back to its normal size. -->
       <enum name="scale" value="0"/>
-      
+      <!-- Mode that slides the fab from one alignment mode to the next. -->
       <enum name="slide" value="1"/>
     </attr>
     
@@ -10195,9 +10246,10 @@
     <attr name="paddingRightSystemWindowInsets"/>
     
     <attr name="menuAlignmentMode">
-      
+      <!-- Mode that aligns the menu automatically to avoid the FAB. Menu will be aligned at the end
+           when the FAB is center aligned, and start when the FAB is end aligned. -->
       <enum name="auto" value="0"/>
-      
+      <!-- Mode that aligns the menu to the start. -->
       <enum name="start" value="1"/>
     </attr>
   </declare-styleable>
@@ -10216,7 +10268,7 @@
     <declare-styleable name="BottomSheetBehavior_Layout">
     
     <attr format="dimension" name="behavior_peekHeight">
-      
+      <!-- Peek at the 16:9 ratio keyline of its parent -->
       <enum name="auto" value="-1"/>
     </attr>
     
@@ -10241,17 +10293,19 @@
     <attr name="backgroundTint"/>
     
     <attr name="behavior_saveFlags">
-      
+      <!-- This flag will preserve the peekHeight on configuration change. -->
       <flag name="peekHeight" value="0x1"/>
-      
+      <!-- This flag will preserve the fitToContents boolean value on configuration change. -->
       <flag name="fitToContents" value="0x2"/>
-      
+      <!-- This flag will preserve the hideable boolean value on configuration change. -->
       <flag name="hideable" value="0x4"/>
-      
+      <!-- This flag will preserve the skipCollapsed boolean value on configuration change. -->
       <flag name="skipCollapsed" value="0x8"/>
-      
+      <!-- This flag will preserve the all the aforementioned values on configuration change. -->
       <flag name="all" value="-1"/>
-      
+      <!-- This flag will not preserve the aforementioned values on configuration change. The only
+           value preserved will be the positional state, e.g. collapsed, hidden, expanded, etc.
+           This is the default behavior. -->
       <flag name="none" value="0"/>
     </attr>
     
@@ -10307,24 +10361,18 @@
         
         <attr name="android:minHeight"/>
     </declare-styleable>
-    <declare-styleable name="Carousel">
-        <attr format="reference" name="carousel_firstView"/>
-        <attr format="reference" name="carousel_previousState"/>
-        <attr format="reference" name="carousel_nextState"/>
-        <attr format="boolean" name="carousel_infinite"/>
-        <attr format="reference" name="carousel_forwardTransition"/>
-        <attr format="reference" name="carousel_backwardTransition"/>
-        <attr format="float" name="carousel_touchUp_dampeningFactor"/>
-        <attr format="enum" name="carousel_touchUpMode">
+    <declare-styleable name="Carousel"><attr format="reference" name="carousel_firstView"/><attr format="reference" name="carousel_previousState"/><attr format="reference" name="carousel_nextState"/><attr format="boolean" name="carousel_infinite"/><attr format="reference" name="carousel_forwardTransition"/><attr format="reference" name="carousel_backwardTransition"/><attr format="float" name="carousel_touchUp_dampeningFactor"/><attr format="enum" name="carousel_touchUpMode">
             <enum name="immediateStop" value="1"/>
             <enum name="carryVelocity" value="2"/>
-        </attr>
-        <attr format="float" name="carousel_touchUp_velocityThreshold"/>
-        <attr format="enum" name="carousel_emptyViewsBehavior">
+        </attr><attr format="float" name="carousel_touchUp_velocityThreshold"/><attr format="enum" name="carousel_emptyViewsBehavior">
             <enum name="invisible" value="4"/>
             <enum name="gone" value="8"/>
-        </attr>
-    </declare-styleable>
+        </attr><attr name="carousel_alignment">
+    
+    <enum name="start" value="0"/>
+    
+    <enum name="center" value="1"/>
+  </attr></declare-styleable>
     <declare-styleable name="CheckedTextView">
         <attr name="android:checkMark"/>
         
@@ -10334,17 +10382,22 @@
 
         
         <attr name="checkMarkTintMode">
-            
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
-            
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
             <enum name="src_in" value="5"/>
-            
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
             <enum name="src_atop" value="9"/>
-            
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
             <enum name="multiply" value="14"/>
-            
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
             <enum name="screen" value="15"/>
-            
+            <!-- Combines the tint and icon color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>
@@ -10484,9 +10537,17 @@
     <attr format="dimension" name="indicatorInset"/>
     
     <attr name="indicatorDirectionCircular">
-      
+      <!--
+        In the indeterminate mode, the spinner will spin clockwise; in the
+        determinate mode, the indicator will progress from the top (12 o'clock)
+        clockwise.
+      -->
       <enum name="clockwise" value="0"/>
-      
+      <!--
+        In the indeterminate mode, the spinner will spin counter-clockwise; in
+        the determinate mode, the indicator will progress from the top (12
+        o'clock) counter-clockwise.
+      -->
       <enum name="counterclockwise" value="1"/>
     </attr>
   </declare-styleable>
@@ -10543,49 +10604,49 @@
 
     
     <attr name="collapsedTitleGravity">
-      
+      <!-- Push title to the top of its container, not changing its size. -->
       <flag name="top" value="0x30"/>
-      
+      <!-- Push title to the bottom of its container, not changing its size. -->
       <flag name="bottom" value="0x50"/>
-      
+      <!-- Push title to the left of its container, not changing its size. -->
       <flag name="left" value="0x03"/>
-      
+      <!-- Push title to the right of its container, not changing its size. -->
       <flag name="right" value="0x05"/>
-      
+      <!-- Place title in the vertical center of its container, not changing its size. -->
       <flag name="center_vertical" value="0x10"/>
-      
+      <!-- Grow the vertical size of the title if needed so it completely fills its container. -->
       <flag name="fill_vertical" value="0x70"/>
-      
+      <!-- Place title in the horizontal center of its container, not changing its size. -->
       <flag name="center_horizontal" value="0x01"/>
-      
+      <!-- Place the title in the center of its container in both the vertical and horizontal axis, not changing its size. -->
       <flag name="center" value="0x11"/>
-      
+      <!-- Push title to the beginning of its container, not changing its size. -->
       <flag name="start" value="0x00800003"/>
-      
+      <!-- Push title to the end of its container, not changing its size. -->
       <flag name="end" value="0x00800005"/>
     </attr>
 
     
     <attr name="expandedTitleGravity">
-      
+      <!-- Push title to the top of its container, not changing its size. -->
       <flag name="top" value="0x30"/>
-      
+      <!-- Push title to the bottom of its container, not changing its size. -->
       <flag name="bottom" value="0x50"/>
-      
+      <!-- Push title to the left of its container, not changing its size. -->
       <flag name="left" value="0x03"/>
-      
+      <!-- Push title to the right of its container, not changing its size. -->
       <flag name="right" value="0x05"/>
-      
+      <!-- Place title in the vertical center of its container, not changing its size. -->
       <flag name="center_vertical" value="0x10"/>
-      
+      <!-- Grow the vertical size of the title if needed so it completely fills its container. -->
       <flag name="fill_vertical" value="0x70"/>
-      
+      <!-- Place title in the horizontal center of its container, not changing its size. -->
       <flag name="center_horizontal" value="0x01"/>
-      
+      <!-- Place the title in the center of its container in both the vertical and horizontal axis, not changing its size. -->
       <flag name="center" value="0x11"/>
-      
+      <!-- Push title to the beginning of its container, not changing its size. -->
       <flag name="start" value="0x00800003"/>
-      
+      <!-- Push title to the end of its container, not changing its size. -->
       <flag name="end" value="0x00800005"/>
     </attr>
 
@@ -10595,9 +10656,9 @@
     <attr name="title"/>
     
     <attr name="titleCollapseMode">
-      
+      <!-- The expanded title will continuously scale and translate to its final collapsed position. -->
       <enum name="scale" value="0"/>
-      
+      <!-- The expanded title will fade out and translate, and the collapsed title will fade in. -->
       <enum name="fade" value="1"/>
     </attr>
     
@@ -10612,11 +10673,12 @@
   </declare-styleable>
     <declare-styleable name="CollapsingToolbarLayout_Layout">
     <attr name="layout_collapseMode">
-      
+      <!-- The view will act as normal with no collapsing behavior. -->
       <enum name="none" value="0"/>
-      
+      <!-- The view will pin in place. -->
       <enum name="pin" value="1"/>
-      
+      <!-- The view will scroll in a parallax fashion. See the
+           layout_collapseParallaxMultiplier attribute to change the multiplier. -->
       <enum name="parallax" value="2"/>
     </attr>
 
@@ -10642,17 +10704,22 @@
 
         
         <attr name="buttonTintMode">
-            
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
-            
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
             <enum name="src_in" value="5"/>
-            
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
             <enum name="src_atop" value="9"/>
-            
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
             <enum name="multiply" value="14"/>
-            
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
             <enum name="screen" value="15"/>
-            
+            <!-- Combines the tint and icon color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>
@@ -11270,70 +11337,76 @@
 
         
         <attr name="layout_anchorGravity">
-            
+            <!-- Push object to the top of its container, not changing its size. -->
             <flag name="top" value="0x30"/>
-            
+            <!-- Push object to the bottom of its container, not changing its size. -->
             <flag name="bottom" value="0x50"/>
-            
+            <!-- Push object to the left of its container, not changing its size. -->
             <flag name="left" value="0x03"/>
-            
+            <!-- Push object to the right of its container, not changing its size. -->
             <flag name="right" value="0x05"/>
-            
+            <!-- Place object in the vertical center of its container, not changing its size. -->
             <flag name="center_vertical" value="0x10"/>
-            
+            <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
             <flag name="fill_vertical" value="0x70"/>
-            
+            <!-- Place object in the horizontal center of its container, not changing its size. -->
             <flag name="center_horizontal" value="0x01"/>
-            
+            <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
             <flag name="fill_horizontal" value="0x07"/>
-            
+            <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
             <flag name="center" value="0x11"/>
-            
+            <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
             <flag name="fill" value="0x77"/>
-            
+            <!-- Additional option that can be set to have the top and/or bottom edges of
+                 the child clipped to its container's bounds.
+                 The clip will be based on the vertical gravity: a top gravity will clip the bottom
+                 edge, a bottom gravity will clip the top edge, and neither will clip both edges. -->
             <flag name="clip_vertical" value="0x80"/>
-            
+            <!-- Additional option that can be set to have the left and/or right edges of
+                 the child clipped to its container's bounds.
+                 The clip will be based on the horizontal gravity: a left gravity will clip the right
+                 edge, a right gravity will clip the left edge, and neither will clip both edges. -->
             <flag name="clip_horizontal" value="0x08"/>
-            
+            <!-- Push object to the beginning of its container, not changing its size. -->
             <flag name="start" value="0x00800003"/>
-            
+            <!-- Push object to the end of its container, not changing its size. -->
             <flag name="end" value="0x00800005"/>
         </attr>
 
         
         <attr format="enum" name="layout_insetEdge">
-            
+            <!-- Don't inset. -->
             <enum name="none" value="0x0"/>
-            
+            <!-- Inset the top edge. -->
             <enum name="top" value="0x30"/>
-            
+            <!-- Inset the bottom edge. -->
             <enum name="bottom" value="0x50"/>
-            
+            <!-- Inset the left edge. -->
             <enum name="left" value="0x03"/>
-            
+            <!-- Inset the right edge. -->
             <enum name="right" value="0x05"/>
-            
+            <!-- Inset the start edge. -->
             <enum name="start" value="0x00800003"/>
-            
+            <!-- Inset the end edge. -->
             <enum name="end" value="0x00800005"/>
         </attr>
         
         <attr name="layout_dodgeInsetEdges">
-            
+            <!-- Don't dodge any edges -->
             <flag name="none" value="0x0"/>
-            
+            <!-- Dodge the top inset edge. -->
             <flag name="top" value="0x30"/>
-            
+            <!-- Dodge the bottom inset edge. -->
             <flag name="bottom" value="0x50"/>
-            
+            <!-- Dodge the left inset edge. -->
             <flag name="left" value="0x03"/>
-            
+            <!-- Dodge the right inset edge. -->
             <flag name="right" value="0x05"/>
-            
+            <!-- Dodge the start inset edge. -->
             <flag name="start" value="0x00800003"/>
-            
+            <!-- Dodge the end inset edge. -->
             <flag name="end" value="0x00800005"/>
-            
+            <!-- Dodge all the inset edges. -->
             <flag name="all" value="0x77"/>
         </attr>
     </declare-styleable>
@@ -11377,11 +11450,11 @@
     <attr name="elevation"/>
     
     <attr name="extendStrategy">
-      
+      <!-- Strategy to extend FAB back to the width it shrunk from. -->
       <enum name="auto" value="0"/>
-      
+      <!-- Strategy to extend FAB to wrap content. -->
       <enum name="wrap_content" value="1"/>
-      
+      <!-- Strategy to extend FAB to match parent. -->
       <enum name="match_parent" value="2"/>
     </attr>
     
@@ -11413,11 +11486,11 @@
 
     
     <attr name="fabSize">
-      
+      <!-- A size which will change based on the window size. -->
       <enum name="auto" value="-1"/>
-      
+      <!-- The normal sized button. -->
       <enum name="normal" value="0"/>
-      
+      <!-- The mini sized button. -->
       <enum name="mini" value="1"/>
     </attr>
     
@@ -11466,14 +11539,23 @@
         <attr format="reference" name="fontProviderCerts"/>
         
         <attr name="fontProviderFetchStrategy">
-            
+            <!-- The blocking font fetch works as follows.
+              First, check the local cache, then if the requested font is not cached, request the
+              font from the provider and wait until it is finished.  You can change the length of
+              the timeout by modifying fontProviderFetchTimeout.  If the timeout happens, the
+              default typeface will be used instead. -->
             <enum name="blocking" value="0"/>
-            
+            <!-- The async font fetch works as follows.
+              First, check the local cache, then if the requeted font is not cached, trigger a
+              request the font and continue with layout inflation. Once the font fetch succeeds, the
+              target text view will be refreshed with the downloaded font data. The
+              fontProviderFetchTimeout will be ignored if async loading is specified. -->
             <enum name="async" value="1"/>
         </attr>
         
         <attr format="integer" name="fontProviderFetchTimeout">
-            
+            <!-- A special value for the timeout. In this case, the blocking font fetching will not
+              timeout and wait until a reply is received from the font provider. -->
             <enum name="forever" value="-1"/>
         </attr>
         
@@ -11828,20 +11910,32 @@
     <declare-styleable name="LinearProgressIndicator">
     
     <attr name="indeterminateAnimationType">
-      
+      <!--
+        The track will be filled with three adjacent segments in iterative different colors.
+        This type is only available when there are three or more indicator
+        colors.
+      -->
       <enum name="contiguous" value="0"/>
-      
+      <!--
+        There will be two disjoint segments in the same color per cycle. The color iterates between cycles.
+      -->
       <enum name="disjoint" value="1"/>
     </attr>
     
     <attr name="indicatorDirectionLinear">
-      
+      <!-- Animated from the left end to the right end of the track. -->
       <enum name="leftToRight" value="0"/>
-      
+      <!-- Animated from the right end to the left end of the track. -->
       <enum name="rightToLeft" value="1"/>
-      
+      <!--
+        Animated from the start position to the end position of the track.
+        This will be same as the leftToRight for API before 17.
+      -->
       <enum name="startToEnd" value="2"/>
-      
+      <!--
+        Animated from the end position to the start position of the track.
+        This will be same as the rightToLeft for API before 17.
+      -->
       <enum name="endToStart" value="3"/>
     </attr>
   </declare-styleable>
@@ -11902,17 +11996,20 @@
     <attr format="dimension" name="iconPadding"/>
     
     <attr name="iconGravity">
-      
+      <!-- Push icon to the start of the button. -->
       <flag name="start" value="0x1"/>
-      
+      <!-- Push the icon to the start of the text keeping a distance equal to
+           {@code iconPadding} from the text. -->
       <flag name="textStart" value="0x2"/>
-      
+      <!-- Push icon to the end of the button. -->
       <flag name="end" value="0x3"/>
-      
+      <!-- Push the icon to the end of the text keeping a distance equal to
+           {@code iconPadding} from the text. -->
       <flag name="textEnd" value="0x4"/>
-      
+      <!-- Push the icon to the top of the button. -->
       <flag name="top" value="0x10"/>
-      
+      <!-- Push the icon to the top of the text keeping a distance equal to
+           {@code iconPadding} from the text. -->
       <flag name="textTop" value="0x20"/>
     </attr>
     
@@ -11985,13 +12082,13 @@
     <attr format="dimension" name="checkedIconMargin"/>
     
     <attr name="checkedIconGravity">
-      
+      <!-- Gravity.TOP | Gravity.END -->
       <enum name="TOP_END" value="8388661"/>
-      
+      <!-- Gravity.TOP | Gravity.START -->
       <enum name="TOP_START" value="8388659"/>
-      
+      <!-- Gravity.BOTTOM | Gravity.END -->
       <enum name="BOTTOM_END" value="8388693"/>
-      
+      <!-- Gravity.BOTTOM | Gravity.START -->
       <enum name="BOTTOM_START" value="8388691"/>
     </attr>
     
@@ -12021,17 +12118,22 @@
     <attr format="reference|color" name="buttonIconTint"/>
     
     <attr name="buttonIconTintMode">
-      
+      <!-- The tint is drawn on top of the drawable.
+           [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
       <enum name="src_over" value="3"/>
-      
+      <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+           color channels are thrown out. [Sa * Da, Sc * Da] -->
       <enum name="src_in" value="5"/>
-      
+      <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+           channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
       <enum name="src_atop" value="9"/>
-      
+      <!-- Multiplies the color and alpha channels of the drawable with those of
+           the tint. [Sa * Da, Sc * Dc] -->
       <enum name="multiply" value="14"/>
-      
+      <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
       <enum name="screen" value="15"/>
-      
+      <!-- Combines the tint and drawable color and alpha channels, clamping the
+           result to valid color values. Saturate(S + D) -->
       <enum name="add" value="16"/>
     </attr>
     
@@ -12042,11 +12144,11 @@
     <attr format="string" name="errorAccessibilityLabel"/>
     
     <attr name="checkedState">
-      
+      <!-- The unchecked state of the checkbox. -->
       <enum name="unchecked" value="0"/>
-      
+      <!-- The checked state of the checkbox. -->
       <enum name="checked" value="1"/>
-      
+      <!-- The indeterminate state of the checkbox. -->
       <enum name="indeterminate" value="2"/>
     </attr>
   </declare-styleable>
@@ -12087,17 +12189,22 @@
     <attr format="color" name="thumbIconTint"/>
     
     <attr name="thumbIconTintMode">
-      
+      <!-- The tint is drawn on top of the drawable.
+           [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
       <enum name="src_over" value="3"/>
-      
+      <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+           color channels are thrown out. [Sa * Da, Sc * Da] -->
       <enum name="src_in" value="5"/>
-      
+      <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+           channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
       <enum name="src_atop" value="9"/>
-      
+      <!-- Multiplies the color and alpha channels of the drawable with those of
+           the tint. [Sa * Da, Sc * Dc] -->
       <enum name="multiply" value="14"/>
-      
+      <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
       <enum name="screen" value="15"/>
-      
+      <!-- Combines the tint and drawable color and alpha channels, clamping the
+           result to valid color values. Saturate(S + D) -->
       <enum name="add" value="16"/>
     </attr>
     
@@ -12108,17 +12215,22 @@
     <attr format="color" name="trackDecorationTint"/>
     
     <attr name="trackDecorationTintMode">
-      
+      <!-- The tint is drawn on top of the drawable.
+           [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
       <enum name="src_over" value="3"/>
-      
+      <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+           color channels are thrown out. [Sa * Da, Sc * Da] -->
       <enum name="src_in" value="5"/>
-      
+      <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+           channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
       <enum name="src_atop" value="9"/>
-      
+      <!-- Multiplies the color and alpha channels of the drawable with those of
+           the tint. [Sa * Da, Sc * Dc] -->
       <enum name="multiply" value="14"/>
-      
+      <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
       <enum name="screen" value="15"/>
-      
+      <!-- Combines the tint and drawable color and alpha channels, clamping the
+           result to valid color values. Saturate(S + D) -->
       <enum name="add" value="16"/>
     </attr>
   </declare-styleable>
@@ -12150,21 +12262,27 @@
     <attr format="boolean" name="logoAdjustViewBounds"/>
     
     <attr name="logoScaleType">
-      
+      <!-- Scale using the image matrix when drawing. See
+           {@link android.widget.ImageView#setImageMatrix(Matrix)}. -->
       <enum name="matrix" value="0"/>
-      
+      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#FILL}. -->
       <enum name="fitXY" value="1"/>
-      
+      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#START}. -->
       <enum name="fitStart" value="2"/>
-      
+      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#CENTER}. -->
       <enum name="fitCenter" value="3"/>
-      
+      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#END}. -->
       <enum name="fitEnd" value="4"/>
-      
+      <!-- Center the image in the view, but perform no scaling. -->
       <enum name="center" value="5"/>
-      
+      <!-- Scale the image uniformly (maintain the image's aspect ratio) so both dimensions
+           (width and height) of the image will be equal to or larger than the corresponding
+           dimension of the view (minus padding). The image is then centered in the view. -->
       <enum name="centerCrop" value="6"/>
-      
+      <!-- Scale the image uniformly (maintain the image's aspect ratio) so that both
+           dimensions (width and height) of the image will be equal to or less than the
+           corresponding dimension of the view (minus padding). The image is then centered in
+           the view. -->
       <enum name="centerInside" value="7"/>
     </attr>
   </declare-styleable>
@@ -12252,15 +12370,24 @@
 
         
         <attr name="showAsAction">
-            
+            <!-- Never show this item in an action bar, show it in the overflow menu instead.
+                 Mutually exclusive with "ifRoom" and "always". -->
             <flag name="never" value="0"/>
-            
+            <!-- Show this item in an action bar if there is room for it as determined
+                 by the system. Favor this option over "always" where possible.
+                 Mutually exclusive with "never" and "always". -->
             <flag name="ifRoom" value="1"/>
-            
+            <!-- Always show this item in an actionbar, even if it would override
+                 the system's limits of how much stuff to put there. This may make
+                 your action bar look bad on some screens. In most cases you should
+                 use "ifRoom" instead. Mutually exclusive with "ifRoom" and "never". -->
             <flag name="always" value="2"/>
-            
+            <!-- When this item is shown as an action in the action bar, show a text
+                 label with it even if it has an icon representation. -->
             <flag name="withText" value="4"/>
-            
+            <!-- This item's action view collapses to a normal menu
+                 item. When expanded, the action view takes over a
+                 larger segment of its container. -->
             <flag name="collapseActionView" value="8"/>
         </attr>
 
@@ -12284,17 +12411,22 @@
 
         
         <attr name="iconTintMode">
-            
+            <!-- The tint is drawn on top of the icon.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
-            
+            <!-- The tint is masked by the alpha channel of the icon. The icon’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
             <enum name="src_in" value="5"/>
-            
+            <!-- The tint is drawn above the icon, but with the icon’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
             <enum name="src_atop" value="9"/>
-            
+            <!-- Multiplies the color and alpha channels of the icon with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
             <enum name="multiply" value="14"/>
-            
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
             <enum name="screen" value="15"/>
-            
+            <!-- Combines the tint and icon color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
 
@@ -12436,13 +12568,14 @@
     <attr name="menu"/>
     
     <attr name="labelVisibilityMode">
-      
+      <!-- Label behaves as "labeled" when there are 3 items or less, or "selected" when there are
+           4 items or more. -->
       <enum name="auto" value="-1"/>
-      
+      <!-- Label is shown on the selected navigation item. -->
       <enum name="selected" value="0"/>
-      
+      <!-- Label is shown on all navigation items. -->
       <enum name="labeled" value="1"/>
-      
+      <!-- Label is not shown on any navigation items. -->
       <enum name="unlabeled" value="2"/>
     </attr>
     
@@ -12482,14 +12615,14 @@
     <attr name="headerLayout"/>
    
     <attr name="menuGravity">
-      
-      
+      <!-- Navigation rail destinations will be aligned as a group at the top. This is the default behavior. -->
+      <!-- Gravity.TOP | Gravity.CENTER_HORIZONTAL-->
       <enum name="top" value="49"/>
-      
-      
+      <!-- Navigation rail destinations will be aligned as a group at the center. -->
+      <!-- Gravity.CENTER -->
       <enum name="center" value="17"/>
-      
-      
+      <!-- Navigation rail destinations will be aligned as a group at the bottom. -->
+      <!-- Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL -->
       <enum name="bottom" value="81"/>
     </attr>
     
@@ -12803,13 +12936,13 @@
     <attr format="dimension" name="haloRadius"/>
     
     <attr name="labelBehavior">
-      
+      <!-- Mode that draws the label floating above the bounds of this view. -->
       <enum name="floating" value="0"/>
-      
+      <!-- Mode that draws the label within the bounds of the view. -->
       <enum name="withinBounds" value="1"/>
-      
+      <!-- Mode that prevents the label from being drawn. -->
       <enum name="gone" value="2"/>
-      
+      <!-- Mode that always draws the label. -->
       <enum name="visible" value="3"/>
     </attr>
     
@@ -12861,9 +12994,9 @@
     <attr format="dimension" name="maxActionInlineWidth"/>
     
     <attr format="enum" name="animationMode">
-      
+      <!-- Mode that corresponds to the slide in and out animations. -->
       <enum name="slide" value="0"/>
-      
+      <!-- Mode that corresponds to the fade in and out animations. -->
       <enum name="fade" value="1"/>
     </attr>
     
@@ -12925,17 +13058,22 @@
         <attr format="color" name="thumbTint"/>
         
         <attr name="thumbTintMode">
-            
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
-            
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
             <enum name="src_in" value="5"/>
-            
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
             <enum name="src_atop" value="9"/>
-            
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
             <enum name="multiply" value="14"/>
-            
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
             <enum name="screen" value="15"/>
-            
+            <!-- Combines the tint and drawable color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
         
@@ -12944,17 +13082,22 @@
         <attr format="color" name="trackTint"/>
         
         <attr name="trackTintMode">
-            
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
-            
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
             <enum name="src_in" value="5"/>
-            
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
             <enum name="src_atop" value="9"/>
-            
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
             <enum name="multiply" value="14"/>
-            
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
             <enum name="screen" value="15"/>
-            
+            <!-- Combines the tint and drawable color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
         
@@ -12999,13 +13142,13 @@
     <attr format="reference" name="tabIndicator"/>
     
     <attr name="tabIndicatorGravity">
-      
+      <!-- Align indicator to the bottom of this tab layout. -->
       <enum name="bottom" value="0"/>
-      
+      <!-- Align indicator along the center of this tab layout. -->
       <enum name="center" value="1"/>
-      
+      <!-- Align indicator to the top of this tab layout. -->
       <enum name="top" value="2"/>
-      
+      <!-- Stretch indicator to match the height and width of a tab item in this layout. -->
       <enum name="stretch" value="3"/>
     </attr>
     
@@ -13014,11 +13157,17 @@
     <attr format="boolean" name="tabIndicatorFullWidth"/>
     
     <attr name="tabIndicatorAnimationMode">
-      
+      <!-- Animate the selection indicator's left and right bounds in step with
+           each other. -->
       <enum name="linear" value="0"/>
-      
+      <!-- Animate the selection indicator's left and right bounds out of step
+           with each other, decelerating the front and accelerating the back.
+           This causes the indicator to look like it stretches between destinations
+           an then shrinks back down to fit the size of it's target tab. -->
       <enum name="elastic" value="1"/>
-      
+      <!-- Animate the selection indicator by sequentially fading it out from
+           its current destination and then fading it in at its new
+           destination. -->
       <enum name="fade" value="2"/>
     </attr>
     
@@ -13165,15 +13314,19 @@
     <attr format="reference" name="errorIconTint"/>
     
     <attr name="errorIconTintMode">
-      
+      <!-- The tint is drawn on top of the drawable.
+           [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
       <enum name="src_over" value="3"/>
-      
+      <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+           color channels are thrown out. [Sa * Da, Sc * Da] -->
       <enum name="src_in" value="5"/>
-      
+      <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+           channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
       <enum name="src_atop" value="9"/>
-      
+      <!-- Multiplies the color and alpha channels of the drawable with those of
+           the tint. [Sa * Da, Sc * Dc] -->
       <enum name="multiply" value="14"/>
-      
+      <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
       <enum name="screen" value="15"/>
     </attr>
 
@@ -13225,47 +13378,56 @@
     <attr format="color" name="startIconTint"/>
     
     <attr name="startIconTintMode">
-      
+      <!-- The tint is drawn on top of the drawable.
+           [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
       <enum name="src_over" value="3"/>
-      
+      <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+           color channels are thrown out. [Sa * Da, Sc * Da] -->
       <enum name="src_in" value="5"/>
-      
+      <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+           channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
       <enum name="src_atop" value="9"/>
-      
+      <!-- Multiplies the color and alpha channels of the drawable with those of
+           the tint. [Sa * Da, Sc * Dc] -->
       <enum name="multiply" value="14"/>
-      
+      <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
       <enum name="screen" value="15"/>
     </attr>
     
     <attr format="dimension" name="startIconMinSize"/>
     
     <attr name="startIconScaleType">
-      
+      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#FILL}. -->
       <enum name="fitXY" value="0"/>
-      
+      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#START}. -->
       <enum name="fitStart" value="1"/>
-      
+      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#CENTER}. -->
       <enum name="fitCenter" value="2"/>
-      
+      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#END}. -->
       <enum name="fitEnd" value="3"/>
-      
+      <!-- Center the image in the view, but perform no scaling. -->
       <enum name="center" value="4"/>
-      
+      <!-- Scale the image uniformly (maintain the image's aspect ratio) so both dimensions
+           (width and height) of the image will be equal to or larger than the corresponding
+           dimension of the view (minus padding). The image is then centered in the view. -->
       <enum name="centerCrop" value="5"/>
-      
+      <!-- Scale the image uniformly (maintain the image's aspect ratio) so that both
+           dimensions (width and height) of the image will be equal to or less than the
+           corresponding dimension of the view (minus padding). The image is then centered in
+           the view. -->
       <enum name="centerInside" value="6"/>
     </attr>
     
     <attr name="endIconMode">
-      
+      <!-- The view will display a custom icon specified by the user. -->
       <enum name="custom" value="-1"/>
-      
+      <!-- No end icon. -->
       <enum name="none" value="0"/>
-      
+      <!-- The view will display a toggle when the EditText has a password. -->
       <enum name="password_toggle" value="1"/>
-      
+      <!-- The view will display a clear text button while the EditText contains input. -->
       <enum name="clear_text" value="2"/>
-      
+      <!-- The view will display a toggle that displays/hides a dropdown menu. -->
       <enum name="dropdown_menu" value="3"/>
     </attr>
     
@@ -13278,44 +13440,53 @@
     <attr format="color" name="endIconTint"/>
     
     <attr name="endIconTintMode">
-      
+      <!-- The tint is drawn on top of the drawable.
+           [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
       <enum name="src_over" value="3"/>
-      
+      <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+           color channels are thrown out. [Sa * Da, Sc * Da] -->
       <enum name="src_in" value="5"/>
-      
+      <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+           channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
       <enum name="src_atop" value="9"/>
-      
+      <!-- Multiplies the color and alpha channels of the drawable with those of
+           the tint. [Sa * Da, Sc * Dc] -->
       <enum name="multiply" value="14"/>
-      
+      <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
       <enum name="screen" value="15"/>
     </attr>
     
     <attr format="dimension" name="endIconMinSize"/>
     
     <attr name="endIconScaleType">
-      
+      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#FILL}. -->
       <enum name="fitXY" value="0"/>
-      
+      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#START}. -->
       <enum name="fitStart" value="1"/>
-      
+      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#CENTER}. -->
       <enum name="fitCenter" value="2"/>
-      
+      <!-- Scale the image using {@link android.graphics.Matrix.ScaleToFit#END}. -->
       <enum name="fitEnd" value="3"/>
-      
+      <!-- Center the image in the view, but perform no scaling. -->
       <enum name="center" value="4"/>
-      
+      <!-- Scale the image uniformly (maintain the image's aspect ratio) so both dimensions
+           (width and height) of the image will be equal to or larger than the corresponding
+           dimension of the view (minus padding). The image is then centered in the view. -->
       <enum name="centerCrop" value="5"/>
-      
+      <!-- Scale the image uniformly (maintain the image's aspect ratio) so that both
+           dimensions (width and height) of the image will be equal to or less than the
+           corresponding dimension of the view (minus padding). The image is then centered in
+           the view. -->
       <enum name="centerInside" value="6"/>
     </attr>
 
     
     <attr name="boxBackgroundMode">
-      
+      <!-- Specifies that there should be no box set on the text input area. -->
       <enum name="none" value="0"/>
-      
+      <!-- Filled box mode for the text input box. -->
       <enum name="filled" value="1"/>
-      
+      <!-- Outline box mode for the text input box. -->
       <enum name="outline" value="2"/>
     </attr>
     
@@ -13354,15 +13525,19 @@
     <attr format="color" name="passwordToggleTint"/>
     
     <attr name="passwordToggleTintMode">
-      
+      <!-- The tint is drawn on top of the drawable.
+           [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
       <enum name="src_over" value="3"/>
-      
+      <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+           color channels are thrown out. [Sa * Da, Sc * Da] -->
       <enum name="src_in" value="5"/>
-      
+      <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+           channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
       <enum name="src_atop" value="9"/>
-      
+      <!-- Multiplies the color and alpha channels of the drawable with those of
+           the tint. [Sa * Da, Sc * Dc] -->
       <enum name="multiply" value="14"/>
-      
+      <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
       <enum name="screen" value="15"/>
     </attr>
   </declare-styleable>
@@ -13400,11 +13575,11 @@
         <attr name="contentInsetEndWithActions"/>
         <attr format="dimension" name="maxButtonHeight"/>
         <attr name="buttonGravity">
-            
+            <!-- Place object in the vertical center of its container, not changing its size. -->
             <flag name="center_vertical" value="0x10"/>
-            
+            <!-- Push object to the top of its container, not changing its size. -->
             <flag name="top" value="0x30"/>
-            
+            <!-- Push object to the bottom of its container, not changing its size. -->
             <flag name="bottom" value="0x50"/>
         </attr>
         
@@ -13537,17 +13712,22 @@
 
         
         <attr name="backgroundTintMode">
-            
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
-            
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
             <enum name="src_in" value="5"/>
-            
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
             <enum name="src_atop" value="9"/>
-            
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
             <enum name="multiply" value="14"/>
-            
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
             <enum name="screen" value="15"/>
-            
+            <!-- Combines the tint and icon color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>
@@ -13586,7 +13766,7 @@
     <macro name="m3_comp_badge_color">?attr/colorError</macro>
     <macro name="m3_comp_badge_large_label_text_color">?attr/colorOnError</macro>
     <macro name="m3_comp_badge_large_label_text_type">?attr/textAppearanceLabelSmall</macro>
-    <macro name="m3_comp_bottom_app_bar_container_color">?attr/colorSurface</macro>
+    <macro name="m3_comp_bottom_app_bar_container_color">?attr/colorSurfaceContainer</macro>
     <macro name="m3_comp_checkbox_selected_container_color">?attr/colorPrimary</macro>
     <macro name="m3_comp_checkbox_selected_disabled_container_color">?attr/colorOnSurface</macro>
     <macro name="m3_comp_checkbox_selected_disabled_icon_color">?attr/colorSurface</macro>
@@ -13595,7 +13775,7 @@
     <macro name="m3_comp_checkbox_selected_icon_color">?attr/colorOnPrimary</macro>
     <macro name="m3_comp_checkbox_unselected_outline_color">?attr/colorOnSurfaceVariant</macro>
     <macro name="m3_comp_circular_progress_indicator_active_indicator_color">?attr/colorPrimary</macro>
-    <macro name="m3_comp_date_picker_modal_container_color">?attr/colorSurface</macro>
+    <macro name="m3_comp_date_picker_modal_container_color">?attr/colorSurfaceContainerHigh</macro>
     <macro name="m3_comp_date_picker_modal_container_shape">?attr/shapeAppearanceCornerExtraLarge</macro>
     <macro name="m3_comp_date_picker_modal_date_label_text_type">?attr/textAppearanceBodyLarge</macro>
     <macro name="m3_comp_date_picker_modal_date_selected_container_color">?attr/colorPrimary</macro>
@@ -13616,15 +13796,15 @@
     <macro name="m3_comp_date_picker_modal_year_selection_year_selected_container_color">?attr/colorPrimary</macro>
     <macro name="m3_comp_date_picker_modal_year_selection_year_selected_label_text_color">?attr/colorOnPrimary</macro>
     <macro name="m3_comp_date_picker_modal_year_selection_year_unselected_label_text_color">?attr/colorOnSurfaceVariant</macro>
-    <macro name="m3_comp_dialog_container_color">?attr/colorSurface</macro>
+    <macro name="m3_comp_dialog_container_color">?attr/colorSurfaceContainerHigh</macro>
     <macro name="m3_comp_dialog_container_shape">?attr/shapeAppearanceCornerExtraLarge</macro>
     <macro name="m3_comp_dialog_headline_color">?attr/colorOnSurface</macro>
     <macro name="m3_comp_dialog_headline_type">?attr/textAppearanceHeadlineSmall</macro>
     <macro name="m3_comp_dialog_supporting_text_color">?attr/colorOnSurfaceVariant</macro>
     <macro name="m3_comp_dialog_supporting_text_type">?attr/textAppearanceBodyMedium</macro>
     <macro name="m3_comp_divider_color">?attr/colorOutlineVariant</macro>
-    <macro name="m3_comp_elevated_button_container_color">?attr/colorSurface</macro>
-    <macro name="m3_comp_elevated_card_container_color">?attr/colorSurface</macro>
+    <macro name="m3_comp_elevated_button_container_color">?attr/colorSurfaceContainerLow</macro>
+    <macro name="m3_comp_elevated_card_container_color">?attr/colorSurfaceContainerLow</macro>
     <macro name="m3_comp_elevated_card_container_shape">?attr/shapeAppearanceCornerMedium</macro>
     <macro name="m3_comp_extended_fab_primary_container_color">?attr/colorPrimaryContainer</macro>
     <macro name="m3_comp_extended_fab_primary_container_shape">?attr/shapeAppearanceCornerLarge</macro>
@@ -13632,7 +13812,7 @@
     <macro name="m3_comp_extended_fab_primary_label_text_type">?attr/textAppearanceLabelLarge</macro>
     <macro name="m3_comp_extended_fab_secondary_container_color">?attr/colorSecondaryContainer</macro>
     <macro name="m3_comp_extended_fab_secondary_icon_color">?attr/colorOnSecondaryContainer</macro>
-    <macro name="m3_comp_extended_fab_surface_container_color">?attr/colorSurface</macro>
+    <macro name="m3_comp_extended_fab_surface_container_color">?attr/colorSurfaceContainerHigh</macro>
     <macro name="m3_comp_extended_fab_surface_icon_color">?attr/colorPrimary</macro>
     <macro name="m3_comp_extended_fab_tertiary_container_color">?attr/colorTertiaryContainer</macro>
     <macro name="m3_comp_extended_fab_tertiary_icon_color">?attr/colorOnTertiaryContainer</macro>
@@ -13643,21 +13823,21 @@
     <macro name="m3_comp_fab_primary_small_container_shape">?attr/shapeAppearanceCornerMedium</macro>
     <macro name="m3_comp_fab_secondary_container_color">?attr/colorSecondaryContainer</macro>
     <macro name="m3_comp_fab_secondary_icon_color">?attr/colorOnSecondaryContainer</macro>
-    <macro name="m3_comp_fab_surface_container_color">?attr/colorSurface</macro>
+    <macro name="m3_comp_fab_surface_container_color">?attr/colorSurfaceContainerHigh</macro>
     <macro name="m3_comp_fab_surface_icon_color">?attr/colorPrimary</macro>
     <macro name="m3_comp_fab_tertiary_container_color">?attr/colorTertiaryContainer</macro>
     <macro name="m3_comp_fab_tertiary_icon_color">?attr/colorOnTertiaryContainer</macro>
-    <macro name="m3_comp_filled_autocomplete_menu_list_item_selected_container_color">?attr/colorSurfaceVariant</macro>
+    <macro name="m3_comp_filled_autocomplete_menu_container_color">?attr/colorSurfaceContainer</macro>
     <macro name="m3_comp_filled_autocomplete_text_field_input_text_type">?attr/textAppearanceBodyLarge</macro>
     <macro name="m3_comp_filled_button_container_color">?attr/colorPrimary</macro>
     <macro name="m3_comp_filled_button_label_text_color">?attr/colorOnPrimary</macro>
     <macro name="m3_comp_filled_button_label_text_type">?attr/textAppearanceLabelLarge</macro>
-    <macro name="m3_comp_filled_card_container_color">?attr/colorSurfaceVariant</macro>
+    <macro name="m3_comp_filled_card_container_color">?attr/colorSurfaceContainerHighest</macro>
     <macro name="m3_comp_filled_card_container_shape">?attr/shapeAppearanceCornerMedium</macro>
     <macro name="m3_comp_filled_icon_button_container_color">?attr/colorPrimary</macro>
     <macro name="m3_comp_filled_icon_button_toggle_selected_icon_color">?attr/colorOnPrimary</macro>
     <macro name="m3_comp_filled_icon_button_toggle_unselected_icon_color">?attr/colorPrimary</macro>
-    <macro name="m3_comp_filled_text_field_container_color">?attr/colorSurfaceVariant</macro>
+    <macro name="m3_comp_filled_text_field_container_color">?attr/colorSurfaceContainerHighest</macro>
     <macro name="m3_comp_filled_text_field_container_shape">?attr/shapeAppearanceCornerExtraSmall</macro>
     <macro name="m3_comp_filled_text_field_error_active_indicator_color">?attr/colorError</macro>
     <macro name="m3_comp_filled_text_field_error_supporting_text_color">?attr/colorError</macro>
@@ -13676,8 +13856,9 @@
     <macro name="m3_comp_input_chip_container_shape">?attr/shapeAppearanceCornerSmall</macro>
     <macro name="m3_comp_input_chip_label_text_type">?attr/textAppearanceLabelLarge</macro>
     <macro name="m3_comp_linear_progress_indicator_active_indicator_color">?attr/colorPrimary</macro>
-    <macro name="m3_comp_linear_progress_indicator_track_color">?attr/colorSurfaceVariant</macro>
-    <macro name="m3_comp_menu_container_color">?attr/colorSurface</macro>
+    <macro name="m3_comp_linear_progress_indicator_track_color">?attr/colorSurfaceContainerHighest</macro>
+    <macro name="m3_comp_menu_container_color">?attr/colorSurfaceContainer</macro>
+    <macro name="m3_comp_menu_list_item_selected_container_color">?attr/colorSecondaryContainer</macro>
     <macro name="m3_comp_navigation_bar_active_focus_icon_color">?attr/colorOnSecondaryContainer</macro>
     <macro name="m3_comp_navigation_bar_active_focus_label_text_color">?attr/colorOnSurface</macro>
     <macro name="m3_comp_navigation_bar_active_focus_state_layer_color">?attr/colorOnSurface</macro>
@@ -13690,7 +13871,7 @@
     <macro name="m3_comp_navigation_bar_active_pressed_icon_color">?attr/colorOnSecondaryContainer</macro>
     <macro name="m3_comp_navigation_bar_active_pressed_label_text_color">?attr/colorOnSurface</macro>
     <macro name="m3_comp_navigation_bar_active_pressed_state_layer_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_navigation_bar_container_color">?attr/colorSurface</macro>
+    <macro name="m3_comp_navigation_bar_container_color">?attr/colorSurfaceContainer</macro>
     <macro name="m3_comp_navigation_bar_inactive_focus_icon_color">?attr/colorOnSurface</macro>
     <macro name="m3_comp_navigation_bar_inactive_focus_label_text_color">?attr/colorOnSurface</macro>
     <macro name="m3_comp_navigation_bar_inactive_focus_state_layer_color">?attr/colorOnSurface</macro>
@@ -13715,7 +13896,6 @@
     <macro name="m3_comp_navigation_drawer_active_pressed_icon_color">?attr/colorOnSecondaryContainer</macro>
     <macro name="m3_comp_navigation_drawer_active_pressed_label_text_color">?attr/colorOnSecondaryContainer</macro>
     <macro name="m3_comp_navigation_drawer_active_pressed_state_layer_color">?attr/colorOnSecondaryContainer</macro>
-    <macro name="m3_comp_navigation_drawer_container_color">?attr/colorSurface</macro>
     <macro name="m3_comp_navigation_drawer_headline_color">?attr/colorOnSurfaceVariant</macro>
     <macro name="m3_comp_navigation_drawer_headline_type">?attr/textAppearanceTitleSmall</macro>
     <macro name="m3_comp_navigation_drawer_inactive_focus_icon_color">?attr/colorOnSurface</macro>
@@ -13730,6 +13910,7 @@
     <macro name="m3_comp_navigation_drawer_inactive_pressed_label_text_color">?attr/colorOnSurface</macro>
     <macro name="m3_comp_navigation_drawer_inactive_pressed_state_layer_color">?attr/colorOnSecondaryContainer</macro>
     <macro name="m3_comp_navigation_drawer_label_text_type">?attr/textAppearanceLabelLarge</macro>
+    <macro name="m3_comp_navigation_drawer_modal_container_color">?attr/colorSurfaceContainerLow</macro>
     <macro name="m3_comp_navigation_rail_active_focus_state_layer_color">?attr/colorOnSurface</macro>
     <macro name="m3_comp_navigation_rail_active_hover_state_layer_color">?attr/colorOnSurface</macro>
     <macro name="m3_comp_navigation_rail_active_icon_color">?attr/colorOnSecondaryContainer</macro>
@@ -13743,7 +13924,7 @@
     <macro name="m3_comp_navigation_rail_inactive_label_text_color">?attr/colorOnSurfaceVariant</macro>
     <macro name="m3_comp_navigation_rail_inactive_pressed_state_layer_color">?attr/colorOnSurface</macro>
     <macro name="m3_comp_navigation_rail_label_text_type">?attr/textAppearanceLabelMedium</macro>
-    <macro name="m3_comp_outlined_autocomplete_menu_list_item_selected_container_color">?attr/colorSurfaceVariant</macro>
+    <macro name="m3_comp_outlined_autocomplete_menu_container_color">?attr/colorSurfaceContainer</macro>
     <macro name="m3_comp_outlined_autocomplete_text_field_caret_color">?attr/colorPrimary</macro>
     <macro name="m3_comp_outlined_autocomplete_text_field_input_text_type">?attr/textAppearanceBodyLarge</macro>
     <macro name="m3_comp_outlined_button_disabled_outline_color">?attr/colorOnSurface</macro>
@@ -13811,8 +13992,7 @@
     <macro name="m3_comp_radio_button_unselected_icon_color">?attr/colorOnSurfaceVariant</macro>
     <macro name="m3_comp_radio_button_unselected_pressed_icon_color">?attr/colorOnSurface</macro>
     <macro name="m3_comp_radio_button_unselected_pressed_state_layer_color">?attr/colorPrimary</macro>
-    <macro name="m3_comp_search_bar_container_color">?attr/colorSurface</macro>
-    <macro name="m3_comp_search_bar_container_surface_tint_layer_color">?attr/elevationOverlayColor</macro>
+    <macro name="m3_comp_search_bar_container_color">?attr/colorSurfaceContainerHigh</macro>
     <macro name="m3_comp_search_bar_hover_state_layer_color">?attr/colorOnSurface</macro>
     <macro name="m3_comp_search_bar_hover_supporting_text_color">?attr/colorOnSurfaceVariant</macro>
     <macro name="m3_comp_search_bar_input_text_color">?attr/colorOnSurface</macro>
@@ -13823,8 +14003,7 @@
     <macro name="m3_comp_search_bar_supporting_text_color">?attr/colorOnSurfaceVariant</macro>
     <macro name="m3_comp_search_bar_supporting_text_type">?attr/textAppearanceBodyLarge</macro>
     <macro name="m3_comp_search_bar_trailing_icon_color">?attr/colorOnSurfaceVariant</macro>
-    <macro name="m3_comp_search_view_container_color">?attr/colorSurface</macro>
-    <macro name="m3_comp_search_view_container_surface_tint_layer_color">?attr/elevationOverlayColor</macro>
+    <macro name="m3_comp_search_view_container_color">?attr/colorSurfaceContainerHigh</macro>
     <macro name="m3_comp_search_view_divider_color">?attr/colorOutline</macro>
     <macro name="m3_comp_search_view_docked_container_shape">?attr/shapeAppearanceCornerExtraLarge</macro>
     <macro name="m3_comp_search_view_header_input_text_color">?attr/colorOnSurface</macro>
@@ -13843,18 +14022,19 @@
     <macro name="m3_comp_secondary_navigation_tab_pressed_state_layer_color">?attr/colorOnSurface</macro>
     <macro name="m3_comp_secondary_navigation_tab_with_icon_active_icon_color">?attr/colorOnSurface</macro>
     <macro name="m3_comp_secondary_navigation_tab_with_icon_inactive_icon_color">?attr/colorOnSurfaceVariant</macro>
-    <macro name="m3_comp_sheet_bottom_docked_container_color">?attr/colorSurface</macro>
+    <macro name="m3_comp_sheet_bottom_docked_container_color">?attr/colorSurfaceContainerLow</macro>
     <macro name="m3_comp_sheet_bottom_docked_container_shape">?attr/shapeAppearanceCornerExtraLarge</macro>
     <macro name="m3_comp_sheet_bottom_docked_drag_handle_color">?attr/colorOnSurfaceVariant</macro>
     <macro name="m3_comp_sheet_side_detached_container_shape">?attr/shapeAppearanceCornerLarge</macro>
-    <macro name="m3_comp_sheet_side_docked_container_color">?attr/colorSurface</macro>
+    <macro name="m3_comp_sheet_side_docked_modal_container_color">?attr/colorSurfaceContainerLow</macro>
     <macro name="m3_comp_sheet_side_docked_modal_container_shape">?attr/shapeAppearanceCornerLarge</macro>
+    <macro name="m3_comp_sheet_side_docked_standard_container_color">?attr/colorSurface</macro>
     <macro name="m3_comp_slider_active_track_color">?attr/colorPrimary</macro>
     <macro name="m3_comp_slider_disabled_active_track_color">?attr/colorOnSurface</macro>
     <macro name="m3_comp_slider_disabled_handle_color">?attr/colorOnSurface</macro>
     <macro name="m3_comp_slider_disabled_inactive_track_color">?attr/colorOnSurface</macro>
     <macro name="m3_comp_slider_handle_color">?attr/colorPrimary</macro>
-    <macro name="m3_comp_slider_inactive_track_color">?attr/colorSurfaceVariant</macro>
+    <macro name="m3_comp_slider_inactive_track_color">?attr/colorSurfaceContainerHighest</macro>
     <macro name="m3_comp_slider_label_container_color">?attr/colorPrimary</macro>
     <macro name="m3_comp_slider_label_label_text_color">?attr/colorOnPrimary</macro>
     <macro name="m3_comp_snackbar_container_color">?attr/colorSurfaceInverse</macro>
@@ -13867,8 +14047,8 @@
     <macro name="m3_comp_switch_disabled_selected_icon_color">?attr/colorOnSurface</macro>
     <macro name="m3_comp_switch_disabled_selected_track_color">?attr/colorOnSurface</macro>
     <macro name="m3_comp_switch_disabled_unselected_handle_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_switch_disabled_unselected_icon_color">?attr/colorSurfaceVariant</macro>
-    <macro name="m3_comp_switch_disabled_unselected_track_color">?attr/colorSurfaceVariant</macro>
+    <macro name="m3_comp_switch_disabled_unselected_icon_color">?attr/colorSurfaceContainerHighest</macro>
+    <macro name="m3_comp_switch_disabled_unselected_track_color">?attr/colorSurfaceContainerHighest</macro>
     <macro name="m3_comp_switch_disabled_unselected_track_outline_color">?attr/colorOnSurface</macro>
     <macro name="m3_comp_switch_selected_focus_handle_color">?attr/colorPrimaryContainer</macro>
     <macro name="m3_comp_switch_selected_focus_icon_color">?attr/colorOnPrimaryContainer</macro>
@@ -13886,23 +14066,23 @@
     <macro name="m3_comp_switch_selected_pressed_track_color">?attr/colorPrimary</macro>
     <macro name="m3_comp_switch_selected_track_color">?attr/colorPrimary</macro>
     <macro name="m3_comp_switch_unselected_focus_handle_color">?attr/colorOnSurfaceVariant</macro>
-    <macro name="m3_comp_switch_unselected_focus_icon_color">?attr/colorSurfaceVariant</macro>
+    <macro name="m3_comp_switch_unselected_focus_icon_color">?attr/colorSurfaceContainerHighest</macro>
     <macro name="m3_comp_switch_unselected_focus_state_layer_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_switch_unselected_focus_track_color">?attr/colorSurfaceVariant</macro>
+    <macro name="m3_comp_switch_unselected_focus_track_color">?attr/colorSurfaceContainerHighest</macro>
     <macro name="m3_comp_switch_unselected_focus_track_outline_color">?attr/colorOutline</macro>
     <macro name="m3_comp_switch_unselected_handle_color">?attr/colorOutline</macro>
     <macro name="m3_comp_switch_unselected_hover_handle_color">?attr/colorOnSurfaceVariant</macro>
-    <macro name="m3_comp_switch_unselected_hover_icon_color">?attr/colorSurfaceVariant</macro>
+    <macro name="m3_comp_switch_unselected_hover_icon_color">?attr/colorSurfaceContainerHighest</macro>
     <macro name="m3_comp_switch_unselected_hover_state_layer_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_switch_unselected_hover_track_color">?attr/colorSurfaceVariant</macro>
+    <macro name="m3_comp_switch_unselected_hover_track_color">?attr/colorSurfaceContainerHighest</macro>
     <macro name="m3_comp_switch_unselected_hover_track_outline_color">?attr/colorOutline</macro>
-    <macro name="m3_comp_switch_unselected_icon_color">?attr/colorSurfaceVariant</macro>
+    <macro name="m3_comp_switch_unselected_icon_color">?attr/colorSurfaceContainerHighest</macro>
     <macro name="m3_comp_switch_unselected_pressed_handle_color">?attr/colorOnSurfaceVariant</macro>
-    <macro name="m3_comp_switch_unselected_pressed_icon_color">?attr/colorSurfaceVariant</macro>
+    <macro name="m3_comp_switch_unselected_pressed_icon_color">?attr/colorSurfaceContainerHighest</macro>
     <macro name="m3_comp_switch_unselected_pressed_state_layer_color">?attr/colorOnSurface</macro>
-    <macro name="m3_comp_switch_unselected_pressed_track_color">?attr/colorSurfaceVariant</macro>
+    <macro name="m3_comp_switch_unselected_pressed_track_color">?attr/colorSurfaceContainerHighest</macro>
     <macro name="m3_comp_switch_unselected_pressed_track_outline_color">?attr/colorOutline</macro>
-    <macro name="m3_comp_switch_unselected_track_color">?attr/colorSurfaceVariant</macro>
+    <macro name="m3_comp_switch_unselected_track_color">?attr/colorSurfaceContainerHighest</macro>
     <macro name="m3_comp_switch_unselected_track_outline_color">?attr/colorOutline</macro>
     <macro name="m3_comp_text_button_focus_state_layer_color">?attr/colorPrimary</macro>
     <macro name="m3_comp_text_button_hover_state_layer_color">?attr/colorPrimary</macro>
@@ -13914,9 +14094,9 @@
     <macro name="m3_comp_time_input_time_input_field_label_text_color">?attr/colorOnSurface</macro>
     <macro name="m3_comp_time_input_time_input_field_supporting_text_color">?attr/colorOnSurfaceVariant</macro>
     <macro name="m3_comp_time_input_time_input_field_supporting_text_type">?attr/textAppearanceBodySmall</macro>
-    <macro name="m3_comp_time_picker_clock_dial_color">?attr/colorSurfaceVariant</macro>
+    <macro name="m3_comp_time_picker_clock_dial_color">?attr/colorSurfaceContainerHighest</macro>
     <macro name="m3_comp_time_picker_clock_dial_selector_handle_container_color">?attr/colorPrimary</macro>
-    <macro name="m3_comp_time_picker_container_color">?attr/colorSurface</macro>
+    <macro name="m3_comp_time_picker_container_color">?attr/colorSurfaceContainerHigh</macro>
     <macro name="m3_comp_time_picker_container_shape">?attr/shapeAppearanceCornerExtraLarge</macro>
     <macro name="m3_comp_time_picker_headline_color">?attr/colorOnSurfaceVariant</macro>
     <macro name="m3_comp_time_picker_headline_type">?attr/textAppearanceLabelMedium</macro>
@@ -13941,7 +14121,7 @@
     <macro name="m3_comp_time_picker_time_selector_selected_pressed_state_layer_color">?attr/colorOnPrimaryContainer</macro>
     <macro name="m3_comp_time_picker_time_selector_separator_color">?attr/colorOnSurface</macro>
     <macro name="m3_comp_time_picker_time_selector_separator_type">?attr/textAppearanceDisplayLarge</macro>
-    <macro name="m3_comp_time_picker_time_selector_unselected_container_color">?attr/colorSurfaceVariant</macro>
+    <macro name="m3_comp_time_picker_time_selector_unselected_container_color">?attr/colorSurfaceContainerHighest</macro>
     <macro name="m3_comp_time_picker_time_selector_unselected_focus_state_layer_color">?attr/colorOnSurface</macro>
     <macro name="m3_comp_time_picker_time_selector_unselected_hover_state_layer_color">?attr/colorOnSurface</macro>
     <macro name="m3_comp_time_picker_time_selector_unselected_label_text_color">?attr/colorOnSurface</macro>
@@ -13953,6 +14133,7 @@
     <macro name="m3_comp_top_app_bar_small_headline_color">?attr/colorOnSurface</macro>
     <macro name="m3_comp_top_app_bar_small_headline_type">?attr/textAppearanceTitleLarge</macro>
     <macro name="m3_comp_top_app_bar_small_leading_icon_color">?attr/colorOnSurface</macro>
+    <macro name="m3_comp_top_app_bar_small_on_scroll_container_color">?attr/colorSurfaceContainer</macro>
     <macro name="m3_comp_top_app_bar_small_trailing_icon_color">?attr/colorOnSurfaceVariant</macro>
     <macro name="m3_sys_color_dark_surface_tint">?attr/colorPrimary</macro>
     <macro name="m3_sys_color_light_surface_tint">?attr/colorPrimary</macro>

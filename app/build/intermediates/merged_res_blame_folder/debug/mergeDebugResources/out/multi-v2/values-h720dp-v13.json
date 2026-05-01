@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.tsarshield.app-mergeDebugResources-2:/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "com.tsar.shield.app-mergeDebugResources-2:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\BOBAH\\.gradle\\caches\\transforms-3\\88a87c800697943cef1bd52eaa042f4b\\transformed\\appcompat-1.6.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "source": "C:\\Users\\BOBAH\\.gradle\\caches\\transforms-3\\63be032b53a1362a10671758e09feabf\\transformed\\appcompat-1.6.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
