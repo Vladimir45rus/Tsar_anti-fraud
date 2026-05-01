@@ -1,6 +1,7 @@
 apply plugin: "com.android.application"
 apply plugin: "org.jetbrains.kotlin.android"
 apply plugin: "com.facebook.react"
+apply plugin: 'kotlin-kapt'
 
 def projectRoot = rootDir.getAbsoluteFile().getParentFile().getAbsolutePath()
 
@@ -128,6 +129,8 @@ android {
     buildTypes {
         debug {
             signingConfig signingConfigs.debug
+            buildConfigField "String", "BASE_URL", "\"https://api.tsar-shield.ru/\""
+            buildConfigField "boolean", "DEBUG", "true"
         }
         release {
             // Caution! In production, you need to generate your own keystore file.
@@ -137,6 +140,8 @@ android {
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
             crunchPngs (findProperty('android.enablePngCrunchInReleaseBuilds')?.toBoolean() ?: true)
+            buildConfigField "String", "BASE_URL", "\"https://api.tsar-shield.ru/\""
+            buildConfigField "boolean", "DEBUG", "false"
         }
     }
     packagingOptions {
@@ -193,6 +198,17 @@ dependencies {
     } else {
         implementation jscFlavor
     }
+
+    // Hilt dependencies for native Kotlin code
+    implementation("com.google.dagger:hilt-android:2.48.1")
+    kapt("com.google.dagger:hilt-android-compiler:2.48.1")
+    
+    // Hilt WorkManager integration
+    implementation("androidx.hilt:hilt-work:1.1.0")
+    kapt("androidx.hilt:hilt-compiler:1.1.0")
+    
+    // WorkManager
+    implementation("androidx.work:work-runtime-ktx:2.9.0")
 }
 
 if (rnVersion < versionToNumber(0, 75, 0)) {

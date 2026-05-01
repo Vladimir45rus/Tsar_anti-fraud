@@ -1,0 +1,110 @@
+```
+# Android build outputs
+build/
+.gradle/
+*/build/
+*.apk
+*.aar
+*.so
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.db-shm
+*.db-wal
+
+# Android cache
+.cache/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log Files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Android Native Development Kit
+obj/
+.libs/
+
+# Coverage reports
+coverage/
+*.ec
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Python related (if any Python components)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/modules/
+
+# Kotlin/JVM
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Gradle
+.gradle/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Build artifacts that might be generated
+app/build/
+android/app/build/
+
+# IDE and editor files
+.vscode/
+*.swp
+*.swo
+
+# MyPy cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage
+htmlcov/
+.coverage*
+
+# Julia dependencies (if any Julia components)
+julia-*/
+
+# Zig dependencies (if any Zig components)
+zig*/
+```

@@ -11,4 +11,9 @@
     <color name="red_500">#FFF44336</color>
     <color name="gray_900">#FF212121</color>
     <color name="splashscreen_background">#0a2a0a</color>
+    
+    <!-- Shield App Colors -->
+    <color name="shield_background">#1a5c1a</color>
+    <color name="overlay_background">#CCFF0000</color>
+    <color name="warning_text">#FFFFFFFF</color>
 </resources>
