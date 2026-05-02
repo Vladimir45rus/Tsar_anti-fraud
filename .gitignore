@@ -1,110 +1,66 @@
 ```
-# Android build outputs
-build/
-.gradle/
-*/build/
-*.apk
-*.aar
+# Compiled and build artifacts
+*.class
+*.dex
 *.so
+*.aar
+*.apk
+*.jar
+
+# Dependencies
+node_modules/
+.libs/
+
+# Build directories
+build/
+.externalNativeBuild/
+.intermediates/
+outputs/
+
+# Gradle
+.gradle/
+.gradle/
+!gradle/wrapper/
+
+# Local configuration file (sdk path, etc)
+local.properties
 
 # Android Studio
 .idea/
 *.iml
 *.iws
-*.db-shm
-*.db-wal
-
-# Android cache
-.cache/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log Files
 *.log
-
-# OS generated files
+*.tmp
+*.swp
 .DS_Store
 Thumbs.db
 
-# Android Native Development Kit
-obj/
-.libs/
-
-# Coverage reports
-coverage/
-*.ec
-
-# Temporary files
-*.tmp
-*.temp
-
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
 
-# Python related (if any Python components)
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.git/modules/
-
-# Kotlin/JVM
-*.class
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
-
-# Gradle
-.gradle/
-.gradle/
-!gradle/wrapper/gradle-wrapper.jar
-
-# Build artifacts that might be generated
-app/build/
-android/app/build/
-
-# IDE and editor files
-.vscode/
-*.swp
-*.swo
+# Coverage reports
+coverage/
+*.gcov
+*.lcov
+*.profdata
 
 # MyPy cache
 .mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pytest cache
 .pytest_cache/
 
-# Coverage
-htmlcov/
-.coverage*
+# Distribution / packaging
+.dist/
+*.tar.gz
+*.whl
 
-# Julia dependencies (if any Julia components)
-julia-*/
-
-# Zig dependencies (if any Zig components)
-zig*/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.egg
 ```

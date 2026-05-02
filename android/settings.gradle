@@ -47,6 +47,11 @@ if (getRNMinorVersion() >= 75) {
 rootProject.name = 'Tsar Shield'
 
 dependencyResolutionManagement {
+  repositories {
+    mavenCentral()
+    google()
+    maven { url 'https://jitpack.io' }  // Репозиторий для Vosk
+  }
   versionCatalogs {
     reactAndroidLibs {
       from(files(new File(["node", "--print", "require.resolve('react-native/package.json')"].execute(null, rootDir).text.trim(), "../gradle/libs.versions.toml")))
