@@ -1,6 +1,7 @@
 # 🛡️ Царь Щит (Tsar-Shield Anti-fraud)
 
 Модуль безопасности экосистемы «Царь». Отслеживает подозрительные действия, блокирует атаки и защищает ваши данные.
+Unified security module for the "Tsar" ecosystem. Monitors suspicious activity, blocks attacks, and secures user data.
 
 ---
 
@@ -15,6 +16,12 @@
 ### 🛠 Стек технологий
 - **Язык:** Kotlin (Android)
 - **База:** SQLite / SQLCipher (через Царь ID)
+
+### 📈 Статус разработки
+- ✅ Сборщик логов событий (Прототип)
+- ✅ Базовая авторизация по паролю
+- 🔄 Интеграция биометрии (через Царь ID)
+- ⚙️ Черный список IP на базе ИИ (В планах)
 
 ---
 
@@ -40,5 +47,5 @@
 - [Царь Подписки](https://github.com/Vladimir45rus/tsar_subs_v2)
 - [Царь Аптечка](https://github.com/Vladimir45rus/tsar_apteka)
 
-## 📄 Лицензия
+## 📄 Лицензия / License
 MIT
