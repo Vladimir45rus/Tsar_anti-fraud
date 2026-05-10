@@ -1,40 +1,44 @@
-# 🛡️ Царь Щит (Anti-fraud)
+# 🛡️ Царь Щит (Tsar-Shield Anti-fraud)
 
-Модуль безопасности экосистемы «Царь». Отслеживает подозрительные действия в сети, блокирует атаки и помогает пользователю быстро сменить пароль или заблокировать аккаунт.
+Модуль безопасности экосистемы «Царь». Отслеживает подозрительные действия, блокирует атаки и защищает ваши данные.
 
-## 🚀 Основные возможности
+---
 
-- Мониторинг подозрительных действий (неудачные логины, необычная геолокация)
-- Автоматическая блокировка аккаунта при обнаружении угрозы
-- Ручная блокировка пользователем (кнопка «Заблокировать аккаунт»)
-- Мгновенная смена пароля по требованию
-- Логирование событий безопасности
+## 🇷🇺 Описание (RU)
 
-## 🛠 Стек технологий
+### 🚀 Основные возможности
+- **Мониторинг:** Отслеживание неудачных логинов и необычной геолокации.
+- **Блокировка:** Автоматическая защита при угрозе + тревожная кнопка «Заблокировать всё».
+- **Скорость:** Мгновенная смена паролей и биометрическая защита.
+- **Логи:** Полная история событий безопасности в локальной базе.
 
+### 🛠 Стек технологий
 - **Язык:** Kotlin (Android)
-- **Платформа:** Android (в перспективе — iOS, веб)
-- **Хранилище логов:** локальная база данных / удалённый сервер
+- **База:** SQLite / SQLCipher (через Царь ID)
 
-## 📦 Статус разработки
+---
 
-✅ Прототип сборщика логов (фиксация событий)  
-✅ Базовая авторизация с паролем  
-🔄 Интеграция с Царь ID для биометрии  
-⚙️ Автоматическая блокировка подозрительных IP
+## 🇺🇸 MiMo Orbit Grant Specification (EN)
 
-## 🗺️ Планы развития
+**Project Goal:** Implementing AI-driven proactive defense for the "Tsar" Ecosystem.
 
-- Обучение ИИ на логах для выявления аномалий (требуется грант на API)
-- Расширение на iOS и веб
-- Создание единой панели управления безопасностью для всех сервисов «Царь»
+### 🤖 MiMo v2.5 Pro Implementation Plan:
+1. **Anomaly Detection (1M Context):** We will use the massive context window to analyze 6+ months of security logs. MiMo will identify sophisticated "slow-brute" attacks that human logic misses.
+2. **Real-time Risk Scoring:** Every login attempt will be processed by MiMo to assign a "Trust Score" based on device fingerprint and behavior.
+3. **Automated Threat Response:** In case of a 90%+ threat score, MiMo will automatically trigger an ecosystem-wide lockdown.
 
-## 🔗 Связанные проекты
+### 📈 Development Status
+- ✅ Event Log Collector (Prototype)
+- ✅ Basic Password Auth
+- 🔄 Biometric Integration (via Tsar-ID)
+- ⚙️ AI-based IP Blacklisting (Pending Grant)
 
-- [Царь ID](https://github.com/Vladimir45rus/tsar_id_edition) — единый вход
-- [Царь Подписки](https://github.com/Vladimir45rus/tsar_subs_v2) — управление подписками
-- [Царь Аптечка](https://github.com/Vladimir45rus/tsar_apteka) — здоровье
+---
+
+## 🔗 Связанные проекты / Ecosystem
+- [Царь ID](https://github.com/Vladimir45rus/tsar_id_edition)
+- [Царь Подписки](https://github.com/Vladimir45rus/tsar_subs_v2)
+- [Царь Аптечка](https://github.com/Vladimir45rus/tsar_apteka)
 
 ## 📄 Лицензия
-
 MIT
