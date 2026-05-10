@@ -25,20 +25,33 @@ Unified security module for the "Tsar" ecosystem. Monitors suspicious activity, 
 
 ---
 
-## 🇺🇸 MiMo Orbit Grant Specification (EN)
+## 🇺🇸 Description (EN)
 
-**Project Goal:** Implementing AI-driven proactive defense for the "Tsar" Ecosystem.
+### 🚀 Key Features
+- **Monitoring:** Tracking failed logins and unusual geolocation.
+- **Lockdown:** Automatic threat protection + "Block Everything" emergency button.
+- **Speed:** Instant password rotation and biometric security.
+- **Logs:** Full event history stored in a local secure database.
 
-### 🤖 MiMo v2.5 Pro Implementation Plan:
-1. **Anomaly Detection (1M Context):** We will use the massive context window to analyze 6+ months of security logs. MiMo will identify sophisticated "slow-brute" attacks that human logic misses.
-2. **Real-time Risk Scoring:** Every login attempt will be processed by MiMo to assign a "Trust Score" based on device fingerprint and behavior.
-3. **Automated Threat Response:** In case of a 90%+ threat score, MiMo will automatically trigger an ecosystem-wide lockdown.
+### 🛠 Tech Stack
+- **Language:** Kotlin (Android)
+- **Database:** SQLite / SQLCipher (via Tsar-ID)
 
 ### 📈 Development Status
 - ✅ Event Log Collector (Prototype)
 - ✅ Basic Password Auth
 - 🔄 Biometric Integration (via Tsar-ID)
 - ⚙️ AI-based IP Blacklisting (Pending Grant)
+
+---
+
+## 🤖 MiMo Orbit Grant Specification (AI Focus)
+
+**Project Goal:** Implementing AI-driven proactive defense for the "Tsar" Ecosystem.
+
+1. **Anomaly Detection (1M Context):** We will use the massive context window to analyze 6+ months of security logs. MiMo will identify sophisticated "slow-brute" attacks that human logic misses.
+2. **Real-time Risk Scoring:** Every login attempt will be processed by MiMo to assign a "Trust Score" based on device fingerprint and behavior.
+3. **Automated Threat Response:** In case of a 90%+ threat score, MiMo will automatically trigger an ecosystem-wide lockdown.
 
 ---
 
