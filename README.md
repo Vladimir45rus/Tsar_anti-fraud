@@ -61,4 +61,4 @@ Unified security module for the "Tsar" ecosystem. Monitors suspicious activity, 
 - [Царь Аптечка](https://github.com/Vladimir45rus/tsar_apteka)
 
 ## 📄 Лицензия / License
-MIT
+MIT | Created by Vladimir "Tsar Batyushka
